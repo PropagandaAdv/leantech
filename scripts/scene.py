@@ -62,7 +62,7 @@ def plastic(name, rgb, rough=0.42, sss=0.0, micro=0.04, spec=0.5, bevel=True):
 def rete_acc(rgb):
     """Rete accumulo: plastica + righe di rullini folli (ASSUNZIONE: non modellati nel CAD) -> bump sinusoidale trasversale + solchi scuri."""
     p = CFG["pattern"]["roller_pitch_mm"] / 1000
-    m, nt, b = new_mat("RETE_ACC"); _in(b, "Roughness", 0.38); _in(b, "Subsurface Weight", 0.05); _in(b, "Subsurface Radius", (0.012, 0.008, 0.006)); _in(b, "Subsurface Scale", 0.8)
+    m, nt, b = new_mat("RETE_ACC"); _in(b, "Roughness", 0.5); b.inputs["Specular IOR Level"].default_value = 0.25; _in(b, "Subsurface Weight", 0.01); _in(b, "Subsurface Radius", (0.012, 0.008, 0.006)); _in(b, "Subsurface Scale", 0.8)
     tc = _n(nt, "ShaderNodeTexCoord"); sp = _n(nt, "ShaderNodeSeparateXYZ"); nt.links.new(tc.outputs["Object"], sp.inputs[0])
     mu = _n(nt, "ShaderNodeMath", operation="MULTIPLY"); mu.inputs[1].default_value = 2 * math.pi / p; nt.links.new(sp.outputs["Y"], mu.inputs[0])
     si = _n(nt, "ShaderNodeMath", operation="SINE"); nt.links.new(mu.outputs[0], si.inputs[0])
@@ -75,7 +75,7 @@ def rete_acc(rgb):
 def rete_fre(rgb):
     """Rete freno/lancio: plastica chiara + pattini in gomma nera (ASSUNZIONE disposizione: griglia) come maschera procedurale."""
     P = CFG["pattern"]; px, py, w, l = [P[k] / 1000 for k in ("pad_pitch_x_mm", "pad_pitch_y_mm", "pad_w_mm", "pad_l_mm")]
-    m, nt, b = new_mat("RETE_FRE"); _in(b, "Subsurface Weight", 0.05); _in(b, "Subsurface Radius", (0.012, 0.008, 0.006)); _in(b, "Subsurface Scale", 0.8)
+    m, nt, b = new_mat("RETE_FRE"); b.inputs["Specular IOR Level"].default_value = 0.25; _in(b, "Subsurface Weight", 0.01); _in(b, "Subsurface Radius", (0.012, 0.008, 0.006)); _in(b, "Subsurface Scale", 0.8)
     tc = _n(nt, "ShaderNodeTexCoord"); sp = _n(nt, "ShaderNodeSeparateXYZ"); nt.links.new(tc.outputs["Object"], sp.inputs[0])
     def band(axis, pitch, width):
         md = _n(nt, "ShaderNodeMath", operation="PINGPONG"); md.inputs[1].default_value = pitch / 2  # simmetrico attorno al centro cella
@@ -98,7 +98,7 @@ def make_materials(hide_arrow=True):
     M["INOX"] = metal("INOX_SATIN", (0.36, 0.335, 0.30), 0.40, strength=0.35)                # AISI 304 satinato, piu' scuro e caldo
     M["INOX_VITE"] = metal("INOX_VITE", (0.50, 0.48, 0.45), 0.25, strength=0.08)
     M["MOTORE"] = plastic("MOTORE", color("MOTORE"), rough=0.5, micro=0.03, spec=0.5)
-    M["RETE_STD"] = plastic("RETE_STD", color("RETE_STD"), rough=0.42, sss=0.05, micro=0.05)
+    M["RETE_STD"] = plastic("RETE_STD", color("RETE_STD"), rough=0.5, sss=0.01, micro=0.05, spec=0.25)
     M["RETE_ACC"] = rete_acc(color("RETE_ACC")); M["RETE_FRE"] = rete_fre(color("RETE_FRE"))
     M["GOMMA"] = plastic("GOMMA", (0.012, 0.012, 0.012), rough=0.72, micro=0.08, spec=0.25)
     M["PL_NERO"] = plastic("PL_NERO", color("PL_NERO"), rough=0.45)
