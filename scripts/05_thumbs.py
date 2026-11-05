@@ -15,10 +15,9 @@ for code in codes:
     if not todo: continue
     reset(); sc = setup_cycles(10, (480, 270))
     lo, hi = V.min(0), V.max(0)
-    ghost = mesh_obj("ghost", V, N, F); gm = flat_mat("g", (0.6, 0.6, 0.6), 0.8); gm.node_tree.nodes["Principled BSDF"].inputs["Alpha"].default_value = 0.08; ghost.data.materials.append(gm)
     w = bpy.data.worlds.new("w"); w.use_nodes = True
     w.node_tree.nodes["Background"].inputs[0].default_value = (0.95, 0.95, 0.95, 1); sc.world = w
-    red = flat_mat("r", (0.9, 0.04, 0.02), 0.4)
+    red = flat_mat("r", (0.55, 0.12, 0.08), 0.5)
     cam = camera((0, -1, 1), (0, 0, 0), 35)
     for pi, name, key in todo:
         m = FP == pi
@@ -26,7 +25,7 @@ for code in codes:
         # niente fantasma per i prodotti: nascondi solo la mesh del prodotto in rosso sopra
         ob = mesh_obj("p", V, N, F[m]); ob.data.materials.append(red)
         vi = np.unique(F[m].ravel()); pv = V[vi]; plo, phi = pv.min(0), pv.max(0); c = (plo + phi) / 2
-        dist = max(np.linalg.norm(phi - plo) * 1.6, 0.35)
+        dist = max(np.linalg.norm(phi - plo) * 1.5, 0.08)
         az, el = math.radians(50), math.radians(25)
         loc = (c[0] + dist * math.cos(el) * math.sin(az), c[1] - dist * math.cos(el) * math.cos(az), c[2] + dist * math.sin(el))
         cam.location = loc; cam.rotation_euler = (mathutils.Vector(c) - mathutils.Vector(loc)).to_track_quat("-Z", "Y").to_euler()

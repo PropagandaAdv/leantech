@@ -1,3 +1,7 @@
 input/
 work/
+*.blend
 *.blend1
+output/blender/
+output/renders/
+output/web/*.glb
