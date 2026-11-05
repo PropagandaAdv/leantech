@@ -1,0 +1,11 @@
+00:12.659  cycles           | WARNING CUEW initialization failed: Error opening the library
+03:34.582  render           | Saved: 'output/renders/assieme/PX0000381686_34alta_FHD.jpg'
+PX0000381686 34alta FHD 202s
+06:40.150  render           | Saved: 'output/renders/assieme/PX0000381686_34bassa_FHD.jpg'
+PX0000381686 34bassa FHD 186s
+07:59.578  render           | Saved: 'output/renders/assieme/PX0000381686_laterale_FHD.jpg'
+PX0000381686 laterale FHD 79s
+09:26.898  render           | Saved: 'output/renders/assieme/PX0000381686_alto_FHD.jpg'
+PX0000381686 alto FHD 87s
+15:32.188  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione1_FHD.jpg'
+PX0000381686 giunzione1 FHD 365s
