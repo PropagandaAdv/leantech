@@ -9,3 +9,19 @@ PX0000381686 laterale FHD 79s
 PX0000381686 alto FHD 87s
 15:32.188  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione1_FHD.jpg'
 PX0000381686 giunzione1 FHD 365s
+21:25.656  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione2_FHD.jpg'
+PX0000381686 giunzione2 FHD 353s
+27:41.229  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione3_FHD.jpg'
+PX0000381686 giunzione3 FHD 376s
+Info: Saved as "PX0000381686.blend"
+PX0000381686 totale 1661s
+31:37.668  render           | Saved: 'output/renders/nastri/PX0000380493_34_FHD.jpg'
+PX0000380493 34 FHD 233s
+34:39.069  render           | Saved: 'output/renders/nastri/PX0000380493_laterale_FHD.jpg'
+PX0000380493 laterale FHD 181s
+40:46.166  render           | Saved: 'output/renders/nastri/PX0000380493_testata_FHD.jpg'
+PX0000380493 testata FHD 367s
+46:26.057  render           | Saved: 'output/renders/nastri/PX0000380493_rete_FHD.jpg'
+PX0000380493 rete FHD 340s
+Info: Saved as "PX0000380493.blend"
+PX0000380493 totale 1124s
