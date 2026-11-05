@@ -27,3 +27,15 @@ Info: Saved as "PX0000380493.blend"
 PX0000380493 totale 1124s
 50:25.007  render           | Saved: 'output/renders/nastri/PX0000381687_34_FHD.jpg'
 PX0000381687 34 FHD 237s
+54:16.921  render           | Saved: 'output/renders/nastri/PX0000381687_laterale_FHD.jpg'
+PX0000381687 laterale FHD 232s
+01:00:08.389  render           | Saved: 'output/renders/nastri/PX0000381687_testata_FHD.jpg'
+PX0000381687 testata FHD 351s
+01:05:13.110  render           | Saved: 'output/renders/nastri/PX0000381687_rete_FHD.jpg'
+PX0000381687 rete FHD 305s
+Info: Saved as "PX0000381687.blend"
+PX0000381687 totale 1127s
+01:09:10.714  render           | Saved: 'output/renders/nastri/PX0000381735_34_FHD.jpg'
+PX0000381735 34 FHD 236s
+01:12:44.600  render           | Saved: 'output/renders/nastri/PX0000381735_laterale_FHD.jpg'
+PX0000381735 laterale FHD 214s
