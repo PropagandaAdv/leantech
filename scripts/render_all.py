@@ -42,6 +42,7 @@ def views_for(code, d, fams, fid):
                 vv = V[F[m & (FP == pi)].ravel()]; rng.append((vv[:, 1].min(), vv[:, 1].max(), fam))
         rng.sort(); js = [(rng[i][1] + rng[i+1][0]) / 2 for i in range(len(rng) - 1)]
         zt = float(np.percentile(V[F[fid == fams.index("RETE_STD")].ravel()][:, 2], 99)) if "RETE_STD" in fams else c[2]
+        if js: add("34hero", 58, 24, 35, tgt=(c[0], float(np.mean(js)), zt - 0.3), dist=5.0, fit=False)
         for k, y in enumerate(js[:3]): add(f"giunzione{k+1}", 50 + 25 * (k % 2), 22, 85, tgt=(c[0], y, zt - 0.02), dist=2.0, fit=False)
     elif kind == "nastri":
         add("34", 40, 22, 50); add("laterale", 90, 2, 50)
@@ -58,7 +59,7 @@ def views_for(code, d, fams, fid):
     return out
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--only"); ap.add_argument("--views"); ap.add_argument("--res", default="1920x1080")
+    ap = argparse.ArgumentParser(); ap.add_argument("--only"); ap.add_argument("--views"); ap.add_argument("--skip", default=""); ap.add_argument("--res", default="1920x1080")
     ap.add_argument("--samples", type=int, default=128); ap.add_argument("--masters", action="store_true"); ap.add_argument("--transparent", action="store_true")
     ap.add_argument("--out", default="output"); ap.add_argument("--save-blend", action="store_true"); ap.add_argument("--show-arrow", action="store_true")
     a = ap.parse_args()
@@ -70,6 +71,7 @@ def main():
         res = tuple(int(x) for x in a.res.split("x")); tag = "4K" if res[0] >= 3840 else ("FHD" if res[0] >= 1920 else f"{res[0]}")
         for v in views_for(code, d, fams, fid):
             if a.views and v["name"] not in a.views.split(","): continue
+            if v["name"] in a.skip.split(","): continue
             for o in [o for o in bpy.data.objects if o.type == "CAMERA"]: bpy.data.objects.remove(o)
             ar, e = math.radians(v["az"]), math.radians(v["el"]); t = v["tgt"]
             loc = (t[0] + v["dist"] * math.cos(e) * math.sin(ar), t[1] - v["dist"] * math.cos(e) * math.cos(ar), t[2] + v["dist"] * math.sin(e))
@@ -78,6 +80,9 @@ def main():
             base = os.path.join(sub, f"{code}_{v['name']}_{tag}"); t1 = time.time()
             vres = (res[0], int(res[0] / v["aspect"])) if v["aspect"] != 16/9 else res
             render(base + (".png" if a.masters else ".jpg"), vres, a.samples, False, "PNG" if a.masters else "JPEG", "16" if a.masters else "8")
+            if a.masters:
+                im = bpy.data.images.load(os.path.abspath(base + ".png")); im.scale(1920, int(1920 / (vres[0] / vres[1])))
+                im.file_format = "JPEG"; im.filepath_raw = os.path.abspath(base.replace("_4K", "_FHD") + ".jpg"); im.save(); bpy.data.images.remove(im)
             print(f"{code} {v['name']} {tag} {time.time()-t1:.0f}s", flush=True)
             if a.transparent:
                 render(base + "_alpha.png", vres, a.samples, True, "PNG", "8")

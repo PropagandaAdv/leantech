@@ -86,10 +86,13 @@ def rete_fre(rgb):
         nt.links.new(md.outputs[0], gt.inputs[0]); return gt.outputs[0]
     mx = _n(nt, "ShaderNodeMath", operation="MULTIPLY"); nt.links.new(band("X", px, w), mx.inputs[0]); nt.links.new(band("Y", py, l), mx.inputs[1])
     mix = _n(nt, "ShaderNodeMix", data_type="RGBA"); nt.links.new(mx.outputs[0], mix.inputs["Factor"])
-    mix.inputs["A"].default_value = (*rgb, 1); mix.inputs["B"].default_value = (0.012, 0.012, 0.012, 1)
+    mix.inputs["A"].default_value = (*rgb, 1); mix.inputs["B"].default_value = (0.004, 0.004, 0.004, 1)
     nt.links.new(mix.outputs["Result"], b.inputs["Base Color"])
-    rr = _n(nt, "ShaderNodeMix", data_type="FLOAT"); nt.links.new(mx.outputs[0], rr.inputs["Factor"]); rr.inputs["A"].default_value = 0.42; rr.inputs["B"].default_value = 0.7
+    rr = _n(nt, "ShaderNodeMix", data_type="FLOAT"); nt.links.new(mx.outputs[0], rr.inputs["Factor"]); rr.inputs["A"].default_value = 0.5; rr.inputs["B"].default_value = 0.85
     nt.links.new(rr.outputs["Result"], b.inputs["Roughness"])
+    sp_ = _n(nt, "ShaderNodeMix", data_type="FLOAT"); nt.links.new(mx.outputs[0], sp_.inputs["Factor"]); sp_.inputs["A"].default_value = 0.25; sp_.inputs["B"].default_value = 0.03
+    nt.links.new(sp_.outputs["Result"], b.inputs["Specular IOR Level"])
+    bm = _n(nt, "ShaderNodeBump"); _in(bm, "Strength", 0.6); _in(bm, "Distance", 0.0015); nt.links.new(mx.outputs[0], bm.inputs["Height"]); nt.links.new(bm.outputs[0], b.inputs["Normal"])
     return m
 
 def make_materials(hide_arrow=True):
