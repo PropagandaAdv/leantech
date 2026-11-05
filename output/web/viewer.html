@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leantech – Anteprima nastri 3D</title>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+<style>
+  :root { --bg:#eceef0; --fg:#1d2329; --acc:#0f6cbd; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--fg); font:15px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  header { padding:12px 16px; display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  header h1 { font-size:16px; margin:0 12px 0 0; font-weight:600; }
+  button { border:1px solid #b8c0c8; background:#fff; padding:6px 12px; border-radius:999px; cursor:pointer; font:inherit; }
+  button[aria-pressed="true"] { background:var(--acc); border-color:var(--acc); color:#fff; }
+  model-viewer { width:100%; height:calc(100% - 96px); background:radial-gradient(circle at 50% 35%, #fafafa, #d9dde1); --progress-bar-color:var(--acc); }
+  footer { padding:6px 16px; font-size:12px; color:#58636d; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Leantech – anteprima 3D</h1>
+  <div id="tabs"></div>
+</header>
+<model-viewer id="mv" alt="Modello 3D nastro trasportatore Leantech"
+  camera-controls auto-rotate auto-rotate-delay="1500" rotation-per-second="8deg"
+  shadow-intensity="1" shadow-softness="0.9" exposure="0.9" environment-image="neutral" tone-mapping="aces"
+  interaction-prompt="none">
+</model-viewer>
+<footer>Anteprima: colori reti proposti, da validare con il cliente. Pattini e rullini della rete sono indicativi (non presenti nel CAD).</footer>
+<script>
+  const MODELS = [
+    ["Assieme layout","PX0000381686.glb"],["Accumulo L=6000","PX0000380493.glb"],["Freno/Lancio L=1500","PX0000381687.glb"],
+    ["Trasferimento L=750","PX0000381735.glb"],["Trasferimento L=10000","PX0000381782.glb"],["FTC su testata","PX0000381771.glb"],["FTC su nastro","PX0000381774.glb"]];
+  const mv = document.getElementById("mv"), tabs = document.getElementById("tabs");
+  function load(i){ [...tabs.children].forEach((b,j)=>b.setAttribute("aria-pressed", i===j)); const t0=performance.now(); mv.src = MODELS[i][1];
+    mv.addEventListener("load", ()=>console.log(MODELS[i][1], "caricato in", Math.round(performance.now()-t0), "ms"), {once:true}); }
+  MODELS.forEach((m,i)=>{ const b=document.createElement("button"); b.textContent=m[0]; b.onclick=()=>load(i); tabs.appendChild(b); });
+  load(0);
+</script>
+</body>
+</html>

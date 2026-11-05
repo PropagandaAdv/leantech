@@ -1,0 +1,10 @@
+{
+  "_nota": "Colori reti = PROPOSTA nostra da validare con il cliente (il cliente ha chiesto solo colori diversi). Valori sRGB hex.",
+  "RETE_ACC": {"hex": "#1F6FB5", "ral": "RAL 5015 circa", "descrizione": "Accumulo (rullini folli) - blu"},
+  "RETE_FRE": {"hex": "#DCDCD6", "ral": "grigio chiaro / bianco perla", "descrizione": "Freno/Lancio (pattini gomma) - grigio chiaro"},
+  "RETE_STD": {"hex": "#3B4044", "ral": "RAL 7016 circa", "descrizione": "Trasferimento (standard) - grigio antracite"},
+  "MOTORE":   {"hex": "#3F4A52", "ral": "RAL 7031 circa", "descrizione": "Motoriduttore - grigio blu verniciato (nel CAD e' rosso, colore di servizio)"},
+  "PL_PIGNONE": {"hex": "#B9B9B2"}, "PL_BLU": {"hex": "#0A6BC4"}, "PL_NAVY": {"hex": "#10204F"},
+  "PL_ROSSO": {"hex": "#B3261E"}, "PL_VERDE": {"hex": "#1E8A3A"}, "PL_GRIGIO": {"hex": "#9A9C9E"}, "PL_NERO": {"hex": "#1A1A1B"}, "PL_CAVO": {"hex": "#E8E8E4"},
+  "pattern": {"pad_pitch_x_mm": 60, "pad_pitch_y_mm": 90, "pad_w_mm": 40, "pad_l_mm": 62, "roller_pitch_mm": 30, "_nota": "Disposizione pattini/rullini NON presente nel CAD: assunzione di lavoro"}
+}
