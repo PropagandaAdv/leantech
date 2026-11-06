@@ -78,6 +78,7 @@ def main():
             cam_look(loc, tuple(t), v["lens"], v["dof"]); place_cyc(cyc, v["az"], t, lo[2])
             sub = os.path.join(a.out, "renders", NAMES[code]); os.makedirs(sub, exist_ok=True)
             base = os.path.join(sub, f"{code}_{v['name']}_{tag}"); t1 = time.time()
+            if os.path.exists(base + (".png" if a.masters else ".jpg")) and not os.environ.get("FORCE"): print(f"{code} {v['name']} {tag} gia' presente, salto", flush=True); continue
             vres = (res[0], int(res[0] / v["aspect"])) if v["aspect"] != 16/9 else res
             render(base + (".png" if a.masters else ".jpg"), vres, a.samples, False, "PNG" if a.masters else "JPEG", "16" if a.masters else "8")
             if a.masters:

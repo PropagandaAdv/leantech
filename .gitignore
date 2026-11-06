@@ -3,5 +3,5 @@ work/
 *.blend
 *.blend1
 output/blender/
-output/renders/
+output/renders/**/*.png
 output/web/*.glb
