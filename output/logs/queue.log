@@ -1,5 +1,7 @@
-00:17.192  cycles           | WARNING CUEW initialization failed: Error opening the library
-19:30.107  render           | Saved: 'output/renders/assieme/PX0000381686_34hero_4K.png'
-PX0000381686 34hero 4K 1154s
-PX0000381686 totale 1170s
-00:04.550  cycles           | WARNING CUEW initialization failed: Error opening the library
+PX0000381686 34hero 4K gia' presente, salto
+PX0000381686 totale 12s
+00:03.607  cycles           | WARNING CUEW initialization failed: Error opening the library
+14:16.936  render           | Saved: 'output/renders/nastri/PX0000380493_34_4K.png'
+PX0000380493 34 4K 854s
+PX0000380493 totale 857s
+00:02.274  cycles           | WARNING CUEW initialization failed: Error opening the library
