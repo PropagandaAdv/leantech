@@ -8,7 +8,7 @@
 ## 2. Decisioni prese – proposte nostre, da validare con il cliente
 | # | Decisione | Default adottato | Dove cambiarla |
 |---|---|---|---|
-| D1 | Colori reti (il cliente ha chiesto solo che siano diversi) | Accumulo: blu (RAL 5015 circa, `#1F6FB5`); Freno/Lancio: grigio chiaro / bianco perla (`#DCDCD6`); Trasferimento: antracite (RAL 7016 circa, `#3B4044`) | `config/colors.json` oppure variabili d'ambiente |
+| D1 | Colori reti (il cliente ha chiesto solo che siano diversi) | Accumulo: blu (RAL 5015 circa, `#0A4F9E`); Freno/Lancio: grigio chiaro / bianco perla (`#DCDCD6`); Trasferimento: antracite (RAL 7016 circa, `#3B4044`) | `config/colors.json` oppure variabili d'ambiente |
 | D2 | Colore motoriduttore (nel CAD e' rosso, colore di servizio) | Grigio-blu verniciato (RAL 7031 circa, `#3F4A52`) | `config/colors.json` → `MOTORE` |
 | D3 | **Rullini folli (accumulo) e pattini in gomma (freno/lancio) NON esistono nel CAD**: la rete e' una lamiera liscia | Resi come texture procedurale: righe di rullini con passo 30 mm; pattini neri a griglia 40x62 mm, passo 60x90 mm. Disposizione e dimensioni sono **assunzioni di lavoro** | `config/colors.json` → `pattern` |
 | D4 | Freccia di direzione bianca (250x375 mm, spessore 1 mm) presente sulle reti accumulo e freno | Nascosta di default (`--show-arrow` per mostrarla) | opzione `render_all.py` |

@@ -1,6 +1,6 @@
 {
   "_nota": "Colori reti = PROPOSTA nostra da validare con il cliente (il cliente ha chiesto solo colori diversi). Valori sRGB hex.",
-  "RETE_ACC": {"hex": "#1F6FB5", "ral": "RAL 5015 circa", "descrizione": "Accumulo (rullini folli) - blu"},
+  "RETE_ACC": {"hex": "#0A4F9E", "ral": "RAL 5015 circa (reso piu saturo per compensare lo schiarimento del rendering)", "descrizione": "Accumulo (rullini folli) - blu"},
   "RETE_FRE": {"hex": "#DCDCD6", "ral": "grigio chiaro / bianco perla", "descrizione": "Freno/Lancio (pattini gomma) - grigio chiaro"},
   "RETE_STD": {"hex": "#3B4044", "ral": "RAL 7016 circa", "descrizione": "Trasferimento (standard) - grigio antracite"},
   "MOTORE":   {"hex": "#3F4A52", "ral": "RAL 7031 circa", "descrizione": "Motoriduttore - grigio blu verniciato (nel CAD e' rosso, colore di servizio)"},
