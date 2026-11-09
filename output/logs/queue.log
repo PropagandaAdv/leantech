@@ -17,3 +17,11 @@ PX0000381735 totale 844s
 PX0000381782 34 4K 850s
 PX0000381782 totale 855s
 00:01.259  cycles           | WARNING CUEW initialization failed: Error opening the library
+12:27.042  render           | Saved: 'output/renders/ftc/PX0000381771_34_4K.png'
+PX0000381771 34 4K 746s
+PX0000381771 totale 747s
+00:01.343  cycles           | WARNING CUEW initialization failed: Error opening the library
+12:42.812  render           | Saved: 'output/renders/ftc/PX0000381774_34_4K.png'
+PX0000381774 34 4K 762s
+PX0000381774 totale 763s
+00:10.798  cycles           | WARNING CUEW initialization failed: Error opening the library
