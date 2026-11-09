@@ -13,3 +13,7 @@ PX0000381687 totale 902s
 PX0000381735 34 4K 842s
 PX0000381735 totale 844s
 00:04.719  cycles           | WARNING CUEW initialization failed: Error opening the library
+14:14.431  render           | Saved: 'output/renders/nastri/PX0000381782_34_4K.png'
+PX0000381782 34 4K 850s
+PX0000381782 totale 855s
+00:01.259  cycles           | WARNING CUEW initialization failed: Error opening the library
