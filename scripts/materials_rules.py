@@ -32,6 +32,7 @@ EXPLICIT = {
     # sensori FTC
     "PX0000031139": ("PL_SENSORE", "media", "corpo fotocellula"),
     "D00000088150_Default<A macchina>": ("PL_VERDE", "media", "sensore verde"),
+    **{p: ("PL_CAVO", "bassa", "supporti bianchi nel CAD (blocchi FTC): resi plastica chiara, ruolo non certo") for p in ["A00000017420","D00000121538_Default<A macchina>","D00000086722_Default<A macchina>"]},
     "PX0000034876": ("INOX", "media", "staffa FTC"),
     "A00000022417": ("INOX", "media", "piastra"),
     "A00000017567": ("INOX", "bassa", "boccole senza colore CAD"),
