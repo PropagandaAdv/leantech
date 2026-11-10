@@ -44,3 +44,7 @@ PX0000381687 rete FHD 265s
 Info: Saved as "PX0000381687.blend"
 PX0000381687 totale 815s
 00:02.296  cycles           | WARNING CUEW initialization failed: Error opening the library
+03:16.366  render           | Saved: 'output/renders/nastri/PX0000381735_laterale_FHD.jpg'
+PX0000381735 laterale FHD 194s
+09:13.190  render           | Saved: 'output/renders/nastri/PX0000381735_testata_FHD.jpg'
+PX0000381735 testata FHD 357s
