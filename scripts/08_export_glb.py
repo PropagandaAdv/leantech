@@ -19,9 +19,13 @@ def srgb(lin): return tuple(int(round(255 * (c * 12.92 if c <= 0.0031308 else 1.
 def pattern_tex(fam):
     P = scene.CFG["pattern"]; base = srgb(scene.color(fam))
     if fam == "RETE_FRE":
-        px, py, w, l = P["pad_pitch_x_mm"], P["pad_pitch_y_mm"], P["pad_w_mm"], P["pad_l_mm"]; W, H = 8 * px, 8 * py
-        im = Image.new("RGB", (W, H), base); dr = ImageDraw.Draw(im); dr.rectangle([(px - w) // 2, (py - l) // 2, (px + w) // 2, (py + l) // 2], fill=(5, 5, 5))
-        return im.resize((128, 192)), (px / 1000, py / 1000)
+        px, py, w, l = P["pad_pitch_x_mm"], P["pad_pitch_y_mm"], P["pad_w_mm"], P["pad_l_mm"]; n = 8   # 1 px = 1 mm, tela di 8x8 celle
+        im = Image.new("RGB", (n * px, n * py), base); dr = ImageDraw.Draw(im)
+        for i in range(n):
+            for j in range(n):
+                cx, cy = i * px + px / 2, j * py + py / 2
+                dr.rectangle([cx - w / 2, cy - l / 2, cx + w / 2, cy + l / 2], fill=(5, 5, 5))
+        return im, (n * px / 1000, n * py / 1000)
     p = P["roller_pitch_mm"]; im = Image.new("RGB", (16, 8 * p), base); dr = ImageDraw.Draw(im)
     for y in range(8 * p):
         t = abs(math.sin(math.pi * y / (8 * p))); k = 0.55 + 0.45 * min(1, t * 3); dr.line([(0, y), (16, y)], fill=tuple(int(c * k) for c in base))

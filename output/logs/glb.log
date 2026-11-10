@@ -1,0 +1,78 @@
+== PX0000381771
+facce saldate 45172 target 100000
+/home/user/leantech/scripts/08_export_glb.py:53: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+mesh pronte 1 s; triangoli finali 45172
+12:45:05 | INFO: Starting glTF 2.0 export
+12:45:06 | INFO: Finished glTF 2.0 export in 0.3601500988006592 s
+export ok {'export_draco_mesh_compression_enable': True, 'export_draco_mesh_compression_level': 7}
+output/web/PX0000381771.glb 0.82 MB 1 s
+== PX0000381774
+facce saldate 48556 target 100000
+/home/user/leantech/scripts/08_export_glb.py:53: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+mesh pronte 1 s; triangoli finali 48556
+12:45:07 | INFO: Starting glTF 2.0 export
+12:45:07 | INFO: Finished glTF 2.0 export in 0.07272195816040039 s
+export ok {'export_draco_mesh_compression_enable': True, 'export_draco_mesh_compression_level': 7}
+output/web/PX0000381774.glb 0.88 MB 1 s
+== PX0000381735
+facce saldate 454513 target 350000
+/home/user/leantech/scripts/08_export_glb.py:53: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+mesh pronte 6 s; triangoli finali 350391
+12:45:14 | INFO: Starting glTF 2.0 export
+12:45:14 | WARNING: Mesh INOX is not valid, and may be exported wrongly
+12:45:14 | INFO: Finished glTF 2.0 export in 0.28656649589538574 s
+export ok {'export_draco_mesh_compression_enable': True, 'export_draco_mesh_compression_level': 7}
+output/web/PX0000381735.glb 6.39 MB 6 s
+== PX0000381687
+facce saldate 513593 target 350000
+/home/user/leantech/scripts/08_export_glb.py:53: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+mesh pronte 6 s; triangoli finali 350630
+12:45:21 | INFO: Starting glTF 2.0 export
+12:45:21 | WARNING: Mesh INOX is not valid, and may be exported wrongly
+12:45:21 | WARNING: Mesh INOX_VITE is not valid, and may be exported wrongly
+12:45:21 | WARNING: Mesh PL_NERO is not valid, and may be exported wrongly
+12:45:21 | INFO: Finished glTF 2.0 export in 0.3392775058746338 s
+export ok {'export_draco_mesh_compression_enable': True, 'export_draco_mesh_compression_level': 7}
+output/web/PX0000381687.glb 6.39 MB 6 s
+== PX0000380493
+facce saldate 980372 target 350000
+/home/user/leantech/scripts/08_export_glb.py:53: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+mesh pronte 15 s; triangoli finali 352434
+12:45:36 | INFO: Starting glTF 2.0 export
+12:45:36 | WARNING: Mesh ALU6061 is not valid, and may be exported wrongly
+12:45:37 | WARNING: Mesh INOX is not valid, and may be exported wrongly
+12:45:37 | WARNING: Mesh PL_NERO is not valid, and may be exported wrongly
+12:45:37 | INFO: Finished glTF 2.0 export in 0.3010220527648926 s
+export ok {'export_draco_mesh_compression_enable': True, 'export_draco_mesh_compression_level': 7}
+output/web/PX0000380493.glb 7.26 MB 15 s
+== PX0000381782
+facce saldate 1288213 target 350000
+/home/user/leantech/scripts/08_export_glb.py:53: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+mesh pronte 20 s; triangoli finali 360650
+12:45:57 | INFO: Starting glTF 2.0 export
+12:45:57 | WARNING: Mesh ALU6061 is not valid, and may be exported wrongly
+12:45:57 | WARNING: Mesh INOX is not valid, and may be exported wrongly
+12:45:57 | WARNING: Mesh INOX_VITE is not valid, and may be exported wrongly
+12:45:57 | WARNING: Mesh MOTORE is not valid, and may be exported wrongly
+12:45:57 | WARNING: Mesh PL_GRIGIO is not valid, and may be exported wrongly
+12:45:57 | WARNING: Mesh PL_NAVY is not valid, and may be exported wrongly
+12:45:57 | WARNING: Mesh PL_NERO is not valid, and may be exported wrongly
+12:45:57 | INFO: Finished glTF 2.0 export in 0.3108346462249756 s
+export ok {'export_draco_mesh_compression_enable': True, 'export_draco_mesh_compression_level': 7}
+output/web/PX0000381782.glb 6.33 MB 20 s
+== PX0000381686
+facce saldate 3356846 target 700000
+/home/user/leantech/scripts/08_export_glb.py:53: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+mesh pronte 71 s; triangoli finali 713416
+12:47:09 | INFO: Starting glTF 2.0 export
+12:47:09 | WARNING: Mesh ALU6061 is not valid, and may be exported wrongly
+12:47:09 | WARNING: Mesh INOX is not valid, and may be exported wrongly
+12:47:09 | WARNING: Mesh INOX_VITE is not valid, and may be exported wrongly
+12:47:09 | WARNING: Mesh MOTORE is not valid, and may be exported wrongly
+12:47:09 | WARNING: Mesh PL_GRIGIO is not valid, and may be exported wrongly
+12:47:09 | WARNING: Mesh PL_NAVY is not valid, and may be exported wrongly
+12:47:09 | WARNING: Mesh PL_NERO is not valid, and may be exported wrongly
+12:47:10 | INFO: Finished glTF 2.0 export in 0.6660361289978027 s
+export ok {'export_draco_mesh_compression_enable': True, 'export_draco_mesh_compression_level': 7}
+output/web/PX0000381686.glb 15.7 MB 71 s
+GLB_DONE
