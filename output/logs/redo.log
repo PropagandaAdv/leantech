@@ -1,0 +1,13 @@
+00:01.307  cycles           | WARNING CUEW initialization failed: Error opening the library
+04:02.442  render           | Saved: 'output/renders/ftc/PX0000381771_dettaglio_FHD.jpg'
+PX0000381771 dettaglio FHD 241s
+PX0000381771 totale 242s
+00:01.369  cycles           | WARNING CUEW initialization failed: Error opening the library
+03:56.610  render           | Saved: 'output/renders/ftc/PX0000381774_dettaglio_FHD.jpg'
+PX0000381774 dettaglio FHD 235s
+PX0000381774 totale 236s
+00:03.730  cycles           | WARNING CUEW initialization failed: Error opening the library
+14:40.828  render           | Saved: 'output/renders/nastri/PX0000380493_34_4K.png'
+PX0000380493 34 4K 878s
+PX0000380493 totale 881s
+00:01.240  cycles           | WARNING CUEW initialization failed: Error opening the library
