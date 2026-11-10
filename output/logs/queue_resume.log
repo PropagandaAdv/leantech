@@ -48,3 +48,10 @@ PX0000381687 totale 815s
 PX0000381735 laterale FHD 194s
 09:13.190  render           | Saved: 'output/renders/nastri/PX0000381735_testata_FHD.jpg'
 PX0000381735 testata FHD 357s
+15:18.994  render           | Saved: 'output/renders/nastri/PX0000381735_rete_FHD.jpg'
+PX0000381735 rete FHD 366s
+Info: Saved as "PX0000381735.blend"
+PX0000381735 totale 919s
+00:04.739  cycles           | WARNING CUEW initialization failed: Error opening the library
+02:46.639  render           | Saved: 'output/renders/nastri/PX0000381782_laterale_FHD.jpg'
+PX0000381782 laterale FHD 162s
