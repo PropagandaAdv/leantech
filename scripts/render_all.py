@@ -59,7 +59,7 @@ def views_for(code, d, fams, fid):
     return out
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--only"); ap.add_argument("--views"); ap.add_argument("--skip", default=""); ap.add_argument("--res", default="1920x1080")
+    ap = argparse.ArgumentParser(); ap.add_argument("--only"); ap.add_argument("--views"); ap.add_argument("--skip", default=""); ap.add_argument("--no-render", action="store_true"); ap.add_argument("--res", default="1920x1080")
     ap.add_argument("--samples", type=int, default=128); ap.add_argument("--masters", action="store_true"); ap.add_argument("--transparent", action="store_true")
     ap.add_argument("--out", default="output"); ap.add_argument("--save-blend", action="store_true"); ap.add_argument("--show-arrow", action="store_true")
     a = ap.parse_args()
@@ -72,6 +72,7 @@ def main():
         for v in views_for(code, d, fams, fid):
             if a.views and v["name"] not in a.views.split(","): continue
             if v["name"] in a.skip.split(","): continue
+            if a.no_render: continue
             for o in [o for o in bpy.data.objects if o.type == "CAMERA"]: bpy.data.objects.remove(o)
             ar, e = math.radians(v["az"]), math.radians(v["el"]); t = v["tgt"]
             loc = (t[0] + v["dist"] * math.cos(e) * math.sin(ar), t[1] - v["dist"] * math.cos(e) * math.cos(ar), t[2] + v["dist"] * math.sin(e))
