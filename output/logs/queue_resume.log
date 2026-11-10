@@ -19,3 +19,10 @@ PX0000381686 alto FHD gia' presente, salto
 00:10.713  cycles           | WARNING CUEW initialization failed: Error opening the library
 05:58.519  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione1_FHD.jpg'
 PX0000381686 giunzione1 FHD 348s
+11:25.306  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione2_FHD.jpg'
+PX0000381686 giunzione2 FHD 327s
+17:06.193  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione3_FHD.jpg'
+PX0000381686 giunzione3 FHD 341s
+Info: Saved as "PX0000381686.blend"
+PX0000381686 totale 1027s
+00:03.871  cycles           | WARNING CUEW initialization failed: Error opening the library
