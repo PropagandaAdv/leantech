@@ -5,3 +5,4 @@ work/
 output/blender/
 output/renders/**/*.png
 output/web/*.glb
+output/consegna/*_4K.zip
