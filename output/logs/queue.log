@@ -16,3 +16,7 @@ PX0000381686 34alta FHD gia' presente, salto
 00:11.125  cycles           | WARNING CUEW initialization failed: Error opening the library
 03:19.711  render           | Saved: 'output/renders/assieme/PX0000381686_34bassa_FHD.jpg'
 PX0000381686 34bassa FHD 189s
+04:37.204  render           | Saved: 'output/renders/assieme/PX0000381686_laterale_FHD.jpg'
+PX0000381686 laterale FHD 77s
+05:59.836  render           | Saved: 'output/renders/assieme/PX0000381686_alto_FHD.jpg'
+PX0000381686 alto FHD 83s
