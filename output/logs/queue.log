@@ -14,3 +14,5 @@ PX0000381774 34 4K gia' presente, salto
 PX0000381774 totale 1s
 PX0000381686 34alta FHD gia' presente, salto
 00:11.125  cycles           | WARNING CUEW initialization failed: Error opening the library
+03:19.711  render           | Saved: 'output/renders/assieme/PX0000381686_34bassa_FHD.jpg'
+PX0000381686 34bassa FHD 189s
