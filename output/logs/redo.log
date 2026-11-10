@@ -19,3 +19,11 @@ PX0000381771 totale 745s
 PX0000381774 34 4K 749s
 PX0000381774 totale 750s
 00:11.056  cycles           | WARNING CUEW initialization failed: Error opening the library
+05:51.993  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione1_FHD.jpg'
+PX0000381686 giunzione1 FHD 341s
+11:24.367  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione2_FHD.jpg'
+PX0000381686 giunzione2 FHD 332s
+17:12.497  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione3_FHD.jpg'
+PX0000381686 giunzione3 FHD 348s
+PX0000381686 totale 1032s
+REDO_DONE
