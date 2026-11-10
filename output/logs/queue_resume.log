@@ -64,3 +64,13 @@ PX0000381782 fuga FHD 192s
 Info: Saved as "PX0000381782.blend"
 PX0000381782 totale 1066s
 00:01.312  cycles           | WARNING CUEW initialization failed: Error opening the library
+03:48.010  render           | Saved: 'output/renders/ftc/PX0000381771_dettaglio_FHD.jpg'
+PX0000381771 dettaglio FHD 227s
+Info: Saved as "PX0000381771.blend"
+PX0000381771 totale 228s
+00:01.127  cycles           | WARNING CUEW initialization failed: Error opening the library
+03:48.176  render           | Saved: 'output/renders/ftc/PX0000381774_dettaglio_FHD.jpg'
+PX0000381774 dettaglio FHD 227s
+Info: Saved as "PX0000381774.blend"
+PX0000381774 totale 228s
+QUEUE_DONE
