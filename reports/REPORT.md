@@ -48,7 +48,7 @@ Prova eseguita in Chromium (Playwright) tramite `viewer.html`: tutti i modelli s
 - Le reti sono modellate come lamiere continue: nessuna maglia modulare nel CAD.
 
 ## 4. Componenti con materiale non determinabile con certezza
-Elenco completo in `reports/materials_map.csv` (225 coppie prodotto/colore: 26 a confidenza alta, 183 media, 16 bassa). Casi incerti, con il trattamento adottato:
+Elenco completo in `reports/materials_map.csv` (225 coppie prodotto/colore: 26 a confidenza alta, 186 media, 13 bassa). Casi incerti, con il trattamento adottato:
 - **Supporti bianchi dei gruppi FTC** (`A00000017420`, `D00000121538`, `D00000086722`): colore CAD bianco, ruolo non chiaro → trattati come minuteria inox. Un tentativo di renderli in plastica e' stato scartato perche' coinvolgeva anche lamiere.
 - Tamburi/rulli di ritorno (`A00000003857`, `A00000008654`), boccole senza colore (`A00000017567`): default inox / plastica scura.
 - Strisce rosse sulle guide, piano di scorrimento blu, corpi sensore (verde/nero): colori da CAD.
@@ -61,7 +61,7 @@ Elenco completo in `reports/materials_map.csv` (225 coppie prodotto/colore: 26 a
 | Master 4K, 96 sample | 12–20 min: nastri ~14–15, FTC ~12,5, assieme ~19 |
 | Export GLB | 1–72 s per modello |
 
-Produzione complessiva: circa 8 ore di calcolo effettivo, ripartite su piu' sessioni (i processi in background non sopravvivono ai riavvii del contenitore; la coda salta quanto gia' prodotto).
+Produzione complessiva: diverse ore di calcolo, ripartite su piu' sessioni (i processi in background non sopravvivono ai riavvii del contenitore; la coda salta quanto gia' prodotto).
 
 ## 6. Rigenerare tutto o un singolo nastro con altri colori
 ```bash
