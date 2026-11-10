@@ -1,0 +1,5 @@
+Render clay di controllo assegnazione materiali (colori piatti, NON i colori finali)
+azzurro chiaro = alluminio 6061 (fiancate, guide)    arancio = acciaio inox satinato (lamiere, barre)
+giallo         = viteria inox                        rosso   = motoriduttore
+blu / grigio chiaro / grigio scuro = reti (accumulo / freno / trasferimento)
+viola scuro    = plastica nera e gomma               verde = sensore   rosa = strisce rosse sulle guide
