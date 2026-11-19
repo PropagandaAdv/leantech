@@ -110,7 +110,7 @@ def make_materials(hide_arrow=True):
         M[f] = plastic(f, color(f), rough=0.4 if f != "PL_CAVO" else 0.35)
     M["FRECCIA"] = plastic("FRECCIA", (0.8, 0.8, 0.8), rough=0.5)
     M["GUIDA_INT"] = M["ALU6061"]                         # v1: parte interna guida = alluminio come il resto
-    if os.environ.get("PROFILE") == "v2":                 # feedback cliente v2 (solo assieme PX0000381686)
+    if os.environ.get("PROFILE", "v2") == "v2":           # feedback cliente v2 (default; PROFILE=v1 ripristina i materiali consegnati)
         M["RETE_FRE"] = M["RETE_STD"]                     # nastro centrale = stesso identico materiale del nastro grigio adiacente
         blu = plastic("BLU_UNICO", color("RETE_ACC"), rough=0.6, sss=0.0, micro=0.0, spec=0.2)   # un solo blu: tinta, saturazione, roughness uniformi, nessun bump/gradiente
         M["RETE_ACC"] = blu; M["PL_BLU"] = blu            # nastro blu + testate azzurre = stesso materiale
