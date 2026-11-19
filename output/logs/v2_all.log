@@ -23,3 +23,14 @@ PX0000380493 totale 820s
 00:02.325  cycles           | WARNING CUEW initialization failed: Error opening the library
 03:35.319  render           | Saved: 'output/renders/nastri/PX0000381687_laterale_FHD_v2.jpg'
 PX0000381687 laterale FHD 213s
+09:15.038  render           | Saved: 'output/renders/nastri/PX0000381687_testata_FHD_v2.jpg'
+PX0000381687 testata FHD 340s
+14:52.054  render           | Saved: 'output/renders/nastri/PX0000381687_rete_FHD_v2.jpg'
+PX0000381687 rete FHD 337s
+Info: Saved as "PX0000381687.blend"
+PX0000381687 totale 892s
+00:02.016  cycles           | WARNING CUEW initialization failed: Error opening the library
+02:57.711  render           | Saved: 'output/renders/nastri/PX0000381735_laterale_FHD_v2.jpg'
+PX0000381735 laterale FHD 176s
+08:06.478  render           | Saved: 'output/renders/nastri/PX0000381735_testata_FHD_v2.jpg'
+PX0000381735 testata FHD 309s
