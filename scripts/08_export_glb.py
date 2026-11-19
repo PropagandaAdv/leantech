@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw
 
 code = sys.argv[1]; target = int(sys.argv[2]) if len(sys.argv) > 2 else 400000
 OUT = f"output/web/{code}.glb"; os.makedirs("output/web", exist_ok=True); os.makedirs("work/tex", exist_ok=True)
-PBR = {"ALU6061": ((0.80, 0.82, 0.86), 1.0, 0.30), "INOX": ((0.36, 0.335, 0.30), 1.0, 0.40), "INOX_VITE": ((0.50, 0.48, 0.45), 1.0, 0.25),
+PBR = {"ALU6061": ((0.62, 0.645, 0.69), 1.0, 0.52), "INOX": ((0.36, 0.335, 0.30), 1.0, 0.52), "INOX_VITE": ((0.50, 0.48, 0.45), 1.0, 0.45),
        "GOMMA": ((0.012, 0.012, 0.012), 0.0, 0.72), "PL_SENSORE": ((0.03, 0.03, 0.035), 0.0, 0.3)}
 def pbr(fam):
     if fam in PBR: return PBR[fam]

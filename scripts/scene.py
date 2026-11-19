@@ -97,9 +97,9 @@ def rete_fre(rgb):
 
 def make_materials(hide_arrow=True):
     M = {}
-    M["ALU6061"] = metal("ALU6061", (0.80, 0.82, 0.86), 0.30, strength=0.14, aniso=0.5)      # alluminio anodizzato naturale, freddo
-    M["INOX"] = metal("INOX_SATIN", (0.36, 0.335, 0.30), 0.40, strength=0.35)                # AISI 304 satinato, piu' scuro e caldo
-    M["INOX_VITE"] = metal("INOX_VITE", (0.50, 0.48, 0.45), 0.25, strength=0.08)
+    M["ALU6061"] = metal("ALU6061", (0.62, 0.645, 0.69), 0.52, strength=0.14, aniso=0.3)      # alluminio anodizzato naturale SATINATO (feedback v2: roughness 0.45-0.6)
+    M["INOX"] = metal("INOX_SATIN", (0.36, 0.335, 0.30), 0.52, strength=0.30)                # AISI 304 satinato (feedback v2: roughness media-alta, spazzolatura direzionale)
+    M["INOX_VITE"] = metal("INOX_VITE", (0.50, 0.48, 0.45), 0.45, strength=0.10)
     M["MOTORE"] = plastic("MOTORE", color("MOTORE"), rough=0.5, micro=0.03, spec=0.5)
     M["RETE_STD"] = plastic("RETE_STD", color("RETE_STD"), rough=0.5, sss=0.01, micro=0.05, spec=0.25)
     M["RETE_ACC"] = rete_acc(color("RETE_ACC")); M["RETE_FRE"] = rete_fre(color("RETE_FRE"))
@@ -109,6 +109,12 @@ def make_materials(hide_arrow=True):
     for f in ("PL_PIGNONE", "PL_BLU", "PL_NAVY", "PL_ROSSO", "PL_VERDE", "PL_GRIGIO", "PL_CAVO"):
         M[f] = plastic(f, color(f), rough=0.4 if f != "PL_CAVO" else 0.35)
     M["FRECCIA"] = plastic("FRECCIA", (0.8, 0.8, 0.8), rough=0.5)
+    M["GUIDA_INT"] = M["ALU6061"]                         # v1: parte interna guida = alluminio come il resto
+    if os.environ.get("PROFILE") == "v2":                 # feedback cliente v2 (solo assieme PX0000381686)
+        M["RETE_FRE"] = M["RETE_STD"]                     # nastro centrale = stesso identico materiale del nastro grigio adiacente
+        blu = plastic("BLU_UNICO", color("RETE_ACC"), rough=0.6, sss=0.0, micro=0.0, spec=0.2)   # un solo blu: tinta, saturazione, roughness uniformi, nessun bump/gradiente
+        M["RETE_ACC"] = blu; M["PL_BLU"] = blu            # nastro blu + testate azzurre = stesso materiale
+        M["GUIDA_INT"] = M["RETE_STD"]                    # guida interna: grigio scuro = materiale grigio esistente (da confermare)
     return M
 
 def build_objects(code, M, hide_arrow=True):

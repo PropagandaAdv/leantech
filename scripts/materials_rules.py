@@ -44,8 +44,11 @@ EXPLICIT = {
 RED_STRIP = {"CLEV00023115_Default<A macchina>"}   # strisce rosse sulle guide
 ARROW_ID = (255, 255, 255)                          # freccia direzione sulle reti ACC/FRE (faccia bianca 250x375 mm)
 
+GUIDE = {"PX0000345764","PX0000355394","PX0000362940","PX0000364651","PX0000016332"}
+
 def classify(prod, col, nfaces_hint=0):
     """col = (r,g,b) CAD della faccia. Ritorna (famiglia, confidenza, nota)."""
+    if prod in GUIDE and tuple(col) in [(114,114,114),(134,134,134)]: return ("GUIDA_INT", "alta", "guida laterale: gruppo grigio scuro = parte interna (verso il nastro)")
     if prod in RED_STRIP: return ("PL_ROSSO", "bassa", "strisce rosse su guide")
     if prod in ("PX0000381010_Default<A macchina>", "PX0000381706_Default<A macchina>") and tuple(col) == ARROW_ID:
         return ("FRECCIA", "alta", "freccia di direzione (decal CAD, 1 mm)")
