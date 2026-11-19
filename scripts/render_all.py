@@ -59,7 +59,7 @@ def views_for(code, d, fams, fid):
     return out
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--only"); ap.add_argument("--views"); ap.add_argument("--skip", default=""); ap.add_argument("--no-render", action="store_true"); ap.add_argument("--res", default="1920x1080")
+    ap = argparse.ArgumentParser(); ap.add_argument("--only"); ap.add_argument("--views"); ap.add_argument("--skip", default=""); ap.add_argument("--no-render", action="store_true"); ap.add_argument("--suffix", default=""); ap.add_argument("--res", default="1920x1080")
     ap.add_argument("--samples", type=int, default=128); ap.add_argument("--masters", action="store_true"); ap.add_argument("--transparent", action="store_true")
     ap.add_argument("--out", default="output"); ap.add_argument("--save-blend", action="store_true"); ap.add_argument("--show-arrow", action="store_true")
     a = ap.parse_args()
@@ -78,7 +78,7 @@ def main():
             loc = (t[0] + v["dist"] * math.cos(e) * math.sin(ar), t[1] - v["dist"] * math.cos(e) * math.cos(ar), t[2] + v["dist"] * math.sin(e))
             cam_look(loc, tuple(t), v["lens"], v["dof"]); place_cyc(cyc, v["az"], t, lo[2])
             sub = os.path.join(a.out, "renders", NAMES[code]); os.makedirs(sub, exist_ok=True)
-            base = os.path.join(sub, f"{code}_{v['name']}_{tag}"); t1 = time.time()
+            base = os.path.join(sub, f"{code}_{v['name']}_{tag}{a.suffix}"); t1 = time.time()
             if os.path.exists(base + (".png" if a.masters else ".jpg")) and not os.environ.get("FORCE"): print(f"{code} {v['name']} {tag} gia' presente, salto", flush=True); continue
             vres = (res[0], int(res[0] / v["aspect"])) if v["aspect"] != 16/9 else res
             render(base + (".png" if a.masters else ".jpg"), vres, a.samples, False, "PNG" if a.masters else "JPEG", "16" if a.masters else "8")
