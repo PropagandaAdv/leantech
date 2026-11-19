@@ -9,3 +9,17 @@ PX0000381686 alto FHD 80s
 PX0000381686 giunzione1 FHD 347s
 16:50.739  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione2_FHD_v2.jpg'
 PX0000381686 giunzione2 FHD 327s
+Info: Saved as "PX0000381686.blend"
+PX0000381686 totale 1011s
+00:03.983  cycles           | WARNING CUEW initialization failed: Error opening the library
+02:49.675  render           | Saved: 'output/renders/nastri/PX0000380493_laterale_FHD_v2.jpg'
+PX0000380493 laterale FHD 166s
+08:25.528  render           | Saved: 'output/renders/nastri/PX0000380493_testata_FHD_v2.jpg'
+PX0000380493 testata FHD 336s
+13:39.856  render           | Saved: 'output/renders/nastri/PX0000380493_rete_FHD_v2.jpg'
+PX0000380493 rete FHD 314s
+Info: Saved as "PX0000380493.blend"
+PX0000380493 totale 820s
+00:02.325  cycles           | WARNING CUEW initialization failed: Error opening the library
+03:35.319  render           | Saved: 'output/renders/nastri/PX0000381687_laterale_FHD_v2.jpg'
+PX0000381687 laterale FHD 213s
