@@ -60,3 +60,8 @@ PX0000381774 dettaglio FHD 208s
 Info: Saved as "PX0000381774.blend"
 PX0000381774 totale 209s
 00:03.417  cycles           | WARNING CUEW initialization failed: Error opening the library
+13:01.858  render           | Saved: 'output/renders/nastri/PX0000380493_34_4K_v2.png'
+PX0000380493 34 4K 779s
+Info: Saved as "PX0000380493.blend"
+PX0000380493 totale 782s
+00:02.311  cycles           | WARNING CUEW initialization failed: Error opening the library
