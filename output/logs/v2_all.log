@@ -75,3 +75,18 @@ PX0000381735 34 4K 756s
 Info: Saved as "PX0000381735.blend"
 PX0000381735 totale 758s
 00:04.208  cycles           | WARNING CUEW initialization failed: Error opening the library
+12:45.606  render           | Saved: 'output/renders/nastri/PX0000381782_34_4K_v2.png'
+PX0000381782 34 4K 762s
+Info: Saved as "PX0000381782.blend"
+PX0000381782 totale 766s
+00:01.173  cycles           | WARNING CUEW initialization failed: Error opening the library
+11:39.577  render           | Saved: 'output/renders/ftc/PX0000381771_34_4K_v2.png'
+PX0000381771 34 4K 699s
+Info: Saved as "PX0000381771.blend"
+PX0000381771 totale 700s
+00:01.253  cycles           | WARNING CUEW initialization failed: Error opening the library
+11:10.105  render           | Saved: 'output/renders/ftc/PX0000381774_34_4K_v2.png'
+PX0000381774 34 4K 669s
+Info: Saved as "PX0000381774.blend"
+PX0000381774 totale 670s
+V2ALL_DONE

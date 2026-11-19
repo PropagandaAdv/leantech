@@ -1,6 +1,8 @@
 # CHANGELOG render v2 – feedback cliente (Leantech, serie CD)
 
-Output (stessi nomi dei file v1 con suffisso `_v2`, cartella `output/renders/assieme/`):
+**AGGIORNAMENTO – ambito esteso a tutte le viste.** Su indicazione ("procedi con le opzioni consigliate e rigenera tutte le viste") il profilo v2 e' ora il **default del progetto** e tutte le viste sono state rigenerate con suffisso `_v2`: 29 JPG Full HD (assieme 8, nastri 16, FTC 4 + hero derivato) e 7 master 4K, piu' i 7 GLB e i 6 render clay. Opzioni consigliate applicate: piano di scorrimento = grigio scuro del nastro grigio; nastro freno grigio uniforme senza riquadri neri; blu unico per nastro e testate. Per tornare ai materiali v1: `PROFILE=v1`. I file v1 restano in `_v1_pre-feedback/`.
+
+Output dei tre render richiesti inizialmente (stessi nomi dei file v1 con suffisso `_v2`, cartella `output/renders/assieme/`):
 - `PX0000381686_34hero_4K_v2.png` (3840×2160, 16 bit) e `..._34hero_FHD_v2.jpg` (derivato web)
 - `PX0000381686_34alta_FHD_v2.jpg`
 - `PX0000381686_giunzione3_FHD_v2.jpg`
@@ -42,8 +44,10 @@ Le due modifiche sono nel codice di base (`scripts/scene.py`): ogni render o GLB
 - **D2 – Riquadri neri del nastro freno.** Applicando "esattamente lo stesso materiale" del nastro grigio, i riquadri neri spariscono. Se vanno mantenuti, si puo' tenere il pattern sulla base grigia (il nastro non sarebbe piu' identico).
 - **D3 – Filo blu navy.** Il filo ai bordi della rete (piano di scorrimento) resta blu navy, quindi nel 34alta e nella giunzione e' l'unica parte blu con una tinta diversa. Se va unificato col blu del nastro, o reso grigio come la guida, va deciso insieme a D1.
 - **D4 – Alluminio chiaro.** Satinato, l'alluminio delle fiancate risulta molto chiaro (quasi bianco opaco) nelle viste in luce piena. Si puo' scurire ancora l'albedo senza toccare le luci.
-- **Ambito.** Le domande D1–D3 e l'ambito (solo queste tre scene o tutto il progetto) non hanno avuto risposta; ho applicato la lettura piu' letterale del feedback e il profilo v2 **solo all'assieme**.
+- **Ambito.** Risolto: profilo v2 esteso a tutto il progetto (vedi in cima).
+- **D5 – Conseguenze dell'estensione.** (a) Nei render del **nastro freno singolo** il nastro e' ora identico al nastro di trasferimento (grigio uniforme, senza pattini): le due versioni si distinguono solo dalla struttura. (b) Nel nastro accumulo **le righe dei rullini non si vedono piu'**: nei primi piani il blu e' piatto, con una lieve sfumatura morbida dovuta alla luce dello studio e appare piu' chiaro della tinta impostata (`#0A4F9E`). (c) La piastra inox satinata dei gruppi FTC risulta molto chiara nei dettagli in luce piena.
 
-## Da rifare per coerenza (non fatto)
-- Altre viste dell'assieme (3/4 bassa, laterale, dall'alto, giunzioni 1 e 2), dove il nastro freno e' ancora bianco con riquadri neri e il blu ha ancora le stecche.
-- Render dei singoli nastri e dei gruppi FTC (satinatura globale), e i 7 GLB per il sito (i valori PBR satinati sono gia' aggiornati in `scripts/08_export_glb.py`, ma i file non sono stati rigenerati).
+## Cosa resta fuori
+- I GLB v2 (assieme 12,0 MB, nastri 6,3–7,2 MB) usano materiali PBR semplici: colori piatti, nessuna texture di rullini o pattini e nessuna spazzolatura procedurale.
+- Il video (Fase 2) non e' avviato: solo piano tecnico in `reports/PIANO_VIDEO_fase2.md`.
+- Versioni con sfondo trasparente non prodotte.
