@@ -3,3 +3,11 @@
 PX0000381686 giunzione3 FHD 329s
 PX0000381686 totale 340s
 00:10.603  cycles           | WARNING CUEW initialization failed: Error opening the library
+03:15.534  render           | Saved: 'output/renders/assieme/PX0000381686_34alta_FHD_v2.jpg'
+PX0000381686 34alta FHD 185s
+PX0000381686 totale 195s
+00:10.702  cycles           | WARNING CUEW initialization failed: Error opening the library
+15:50.065  render           | Saved: 'output/renders/assieme/PX0000381686_34hero_4K_v2.png'
+PX0000381686 34hero 4K 940s
+PX0000381686 totale 950s
+V2_DONE
