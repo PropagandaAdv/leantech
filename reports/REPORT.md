@@ -1,5 +1,7 @@
 # Leantech – render realistici nastri da file STEP (anteprima)
 
+> **AGGIORNAMENTO v2 (feedback cliente):** tutte le viste, i master 4K e i GLB sono stati rigenerati con i materiali corretti (alluminio e inox satinati, nastro freno grigio, blu unico, guide bicolore). Vedi `CHANGELOG_render_v2.md`. Le decisioni D1 e D3 e i render/GLB descritti sotto si riferiscono alla v1 dove indicato; i file `*_v2.*` sono la versione corrente. Nastro freno: senza pattini; accumulo: senza righe di rullini.
+
 Stato: **consegna completa** per quanto previsto dal brief, tranne le versioni con sfondo trasparente e il turntable (vedi §7).
 Sono anteprime generate dal CAD: i nastri reali sono in produzione.
 
