@@ -1,0 +1,36 @@
+<style>
+.lt-vc{position:absolute;right:16px;bottom:16px;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.55);background:rgba(12,36,52,.72);cursor:pointer;z-index:6;padding:0;display:flex;align-items:center;justify-content:center}
+.lt-vc::before{content:"";display:block;width:12px;height:14px;border-left:4px solid #fff;border-right:4px solid #fff;box-sizing:border-box}
+.lt-vc.is-paused::before{width:0;height:0;border-left:13px solid #fff;border-right:0;border-top:8px solid transparent;border-bottom:8px solid transparent}
+.lt-vc:focus-visible{outline:3px solid #5FB8E8;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.elementor-background-video-container{display:none!important}}
+
+[data-elementor-type="wp-page"]>.e-parent:first-child:has(>.e-con-inner>.elementor-background-video-container)>.e-con-inner>.elementor-background-video-container+.e-con{position:relative;isolation:isolate}
+[data-elementor-type="wp-page"]>.e-parent:first-child:has(>.e-con-inner>.elementor-background-video-container)>.e-con-inner>.elementor-background-video-container+.e-con::after{content:"";position:absolute;inset:-28px -32px;background:rgba(12,36,52,.68);border-radius:14px;z-index:-1;pointer-events:none}
+@media (max-width:767px){[data-elementor-type="wp-page"]>.e-parent:first-child:has(>.e-con-inner>.elementor-background-video-container)>.e-con-inner>.elementor-background-video-container+.e-con::after{inset:-16px -14px}}
+</style>
+<script>
+(function(){if(window.__ltVC){return;}window.__ltVC=1;
+var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+var SEL='video.elementor-background-video-hosted,.elementor-widget-video video[autoplay]';
+function host(v){return v.closest('.elementor-background-video-container')?(v.closest('.e-con')||v.closest('.elementor-section')):(v.closest('.elementor-widget-video')||v.parentElement);}
+function defer(v,h){if(v.__ltD||v.__ltS){return;}var r=h.getBoundingClientRect();if(r.top<window.innerHeight*1.25){return;}var s=v.getAttribute('src');if(!s){return;}v.__ltS=s;v.__ltD=1;v.pause();v.removeAttribute('src');v.preload='none';v.load();}
+function wake(v){if(!v.__ltD){return;}v.__ltD=0;v.preload='metadata';v.setAttribute('src',v.__ltS);}
+function play(v){wake(v);var p=v.play();if(p&&p.catch){p.catch(function(){});}}
+function add(v){if(v.__ltA){return;}var h=host(v);if(!h||h.querySelector('.lt-vc')){return;}v.__ltA=1;
+var b=document.createElement('button');b.type='button';b.className='lt-vc';
+function set(p){b.classList.toggle('is-paused',p);b.setAttribute('aria-pressed',p?'true':'false');b.setAttribute('aria-label',p?'Riproduci il video':'Metti in pausa il video');}
+set(false);
+b.addEventListener('click',function(){if(v.paused){play(v);set(false);}else{v.pause();set(true);}});
+if(getComputedStyle(h).position==='static'){h.style.position='relative';}
+h.appendChild(b);
+if(reduce){v.pause();v.removeAttribute('autoplay');set(true);}
+defer(v,h);
+if('IntersectionObserver' in window){new IntersectionObserver(function(en){en.forEach(function(e){if(b.classList.contains('is-paused')){return;}if(e.isIntersecting){play(v);}else{v.pause();}});},{rootMargin:'300px 0px'}).observe(h);}
+}
+function init(){document.querySelectorAll(SEL).forEach(add);}
+if(window.MutationObserver){new MutationObserver(function(ms){ms.forEach(function(m){m.addedNodes.forEach(function(n){if(n.nodeType!==1){return;}if(n.matches&&n.matches(SEL)){add(n);}else if(n.querySelectorAll){n.querySelectorAll(SEL).forEach(add);}});});}).observe(document.documentElement,{childList:true,subtree:true});}
+if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',init);}else{init();}
+window.addEventListener('load',init);setTimeout(init,1500);setTimeout(init,4000);
+})();
+</script>
