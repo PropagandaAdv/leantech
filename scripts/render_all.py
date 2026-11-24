@@ -91,4 +91,5 @@ def main():
         if a.save_blend:
             os.makedirs(os.path.join(a.out, "blender"), exist_ok=True); bpy.ops.wm.save_as_mainfile(filepath=os.path.join(a.out, "blender", f"{code}.blend"), compress=True)
         print(code, f"totale {time.time()-t0:.0f}s", flush=True)
-main()
+if __name__ == "__main__":
+    main()
