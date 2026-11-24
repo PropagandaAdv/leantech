@@ -1,0 +1,12 @@
+frame totali 350 (9.0s orbita + 1.0s pausa + 4.0s zoom a 25 fps)
+00:14.911  cycles           | WARNING CUEW initialization failed: Error opening the library
+01:12.812  render           | Saved: 'work/video_frames/frame_0000.jpg'
+frame 0/349 58s  az 62.0 dist 20.8
+02:18.969  render           | Saved: 'work/video_frames/frame_0001.jpg'
+frame 1/349 66s  az 62.0 dist 20.8
+03:26.790  render           | Saved: 'work/video_frames/frame_0002.jpg'
+frame 2/349 68s  az 62.1 dist 20.8
+04:33.065  render           | Saved: 'work/video_frames/frame_0003.jpg'
+frame 3/349 66s  az 62.2 dist 20.8
+05:58.307  render           | Saved: 'work/video_frames/frame_0004.jpg'
+frame 4/349 85s  az 62.3 dist 20.8
