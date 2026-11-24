@@ -14,7 +14,7 @@ T = {
  "3":  "Verifica proposta rispetto a Budget da parte della direzione",
  "4":  "Aggiornamento elenco commesse e attivazione della nuova commessa sul gestionale",
  "5":  "Disegno del layout commessa da parte dell’Ufficio Tecnico",
- "6":  "Approvazione progetto da parte del Committente e del cliente (se necessarie si effettuano modifiche, rimanendo nei limiti di Budget)",
+ "6":  "Approvazione progetto da parte del cliente (se necessarie si effettuano modifiche, rimanendo nei limiti di Budget)",
  "7":  "Progettazione distinte base da parte dell’Ufficio Tecnico interno (per ogni gruppo e sottogruppo)",
  "8":  "Inserimento distinte di base sul gestionale",
  "9":  "Ordine cliente (sul gestionale)",
@@ -57,7 +57,7 @@ def pair(chip, b):
 
 DN = '<span class="lf-dn" aria-hidden="true"><svg viewBox="0 0 16 28" focusable="false"><path d="M8 1v22M2 17l6 7 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>'
 
-lane1 = ('<section class="lf-lane lf-client" aria-labelledby="lf-l1"><h3 id="lf-l1" class="lf-lh">Clevertech</h3>'
+lane1 = ('<section class="lf-lane lf-client" aria-labelledby="lf-l1"><h3 id="lf-l1" class="lf-lh">Cliente</h3>'
          + row(box("1", arrow=False)) + '</section>')
 lane2 = ('<section class="lf-lane" aria-labelledby="lf-l2"><h3 id="lf-l2" class="lf-lh">Leantech</h3><div class="lf-flow">'
   + row(box("2"), box("3"), fork(out("Rifiuto ordine cliente"), out("Approvazione ordine cliente", True)), box("4", False)) + DN
