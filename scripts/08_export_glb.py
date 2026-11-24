@@ -11,7 +11,7 @@ PBR = {"ALU6061": ((0.62, 0.645, 0.69), 1.0, 0.52), "INOX": ((0.36, 0.335, 0.30)
        "GOMMA": ((0.012, 0.012, 0.012), 0.0, 0.72), "PL_SENSORE": ((0.03, 0.03, 0.035), 0.0, 0.3)}
 V2 = os.environ.get("PROFILE", "v2") == "v2"
 def pbr(fam):
-    if V2 and fam in ("RETE_FRE", "GUIDA_INT"): return (scene.color("RETE_STD"), 0.0, 0.5)   # v2: nastro freno e interno guida = grigio del nastro standard
+    if V2 and fam in ("RETE_FRE", "GUIDA_INT"): return (scene.color("RETE_STD"), 0.0, 0.5)   # RETE_FRE: variante a ha anche la texture dei pattini (vedi sotto)   # v2: nastro freno e interno guida = grigio del nastro standard
     if V2 and fam == "PL_BLU": return (scene.color("RETE_ACC"), 0.0, 0.6)                    # v2: testate = stesso blu del nastro
     if V2 and fam == "RETE_ACC": return (scene.color("RETE_ACC"), 0.0, 0.6)
     if fam == "GUIDA_INT": return (scene.color("RETE_STD") if V2 else (0.62, 0.645, 0.69), 0.0 if V2 else 1.0, 0.5 if V2 else 0.52)
@@ -22,7 +22,7 @@ def pbr(fam):
 
 def srgb(lin): return tuple(int(round(255 * (c * 12.92 if c <= 0.0031308 else 1.055 * c ** (1 / 2.4) - 0.055))) for c in lin)
 def pattern_tex(fam):
-    P = scene.CFG["pattern"]; base = srgb(scene.color(fam))
+    P = scene.CFG["pattern"]; base = srgb(scene.color("RETE_STD" if (V2 and fam == "RETE_FRE") else fam))
     if fam == "RETE_FRE":
         px, py, w, l = P["pad_pitch_x_mm"], P["pad_pitch_y_mm"], P["pad_w_mm"], P["pad_l_mm"]; n = 8   # 1 px = 1 mm, tela di 8x8 celle
         im = Image.new("RGB", (n * px, n * py), base); dr = ImageDraw.Draw(im)
@@ -61,7 +61,7 @@ for f, Vi, Fi in parts:
     bpy.ops.object.shade_auto_smooth(angle=math.radians(35))
     base, metal, rough = pbr(f); m = bpy.data.materials.new(f); m.use_nodes = True; b = m.node_tree.nodes["Principled BSDF"]
     b.inputs["Base Color"].default_value = (*base, 1); b.inputs["Metallic"].default_value = metal; b.inputs["Roughness"].default_value = rough
-    if f in ("RETE_FRE", "RETE_ACC") and not V2:     # v2: reti senza pattern (colore piatto)
+    if (f == "RETE_FRE" and V2 and os.environ.get("FRENO_VARIANT", "a") == "a") or (f in ("RETE_FRE", "RETE_ACC") and not V2):     # v2: solo il freno variante a ha il pattern pattini
         im, (tu, tv) = pattern_tex(f); tp = f"work/tex/{f}.png"; im.save(tp)
         uv = ob.data.uv_layers.new(name="UV"); co2 = np.array([v.co[:] for v in ob.data.vertices]); loops = np.array([l.vertex_index for l in ob.data.loops])
         uvs = np.stack([co2[loops, 0] / tu, co2[loops, 1] / tv], 1).astype(np.float32); uv.data.foreach_set("uv", uvs.ravel())
