@@ -3,7 +3,7 @@
 Cartella di consegna: `render_v2_2026-11-24/`. I file consegnati il 10/11 non sono stati toccati (copia integrale in `_v1_pre-feedback/`).
 
 ## 1. Fatto
-**Lavoro A – revisione render nastri serie CD: completato (video in corso, vedi §6).**
+**Lavoro A – revisione render nastri serie CD: completato, video incluso (vedi §6).**
 **Lavoro B – layout 5000 CPH con RAT 30°: NON eseguito, mancano i file indispensabili (vedi §5).**
 
 | Cosa | Dove |
@@ -46,10 +46,20 @@ Nomi: gli stessi della v1 con suffisso `_v2` (varianti: `_varA…` / `_varB…`)
 **Bloccato.** Non ho ricevuto: il DWG del layout 5000 CPH, il 3D del RAT 30° nelle tre configurazioni, i 4 WeTransfer del 23/11, gli screenshot `image019/020`. Ho cercato nel repository, in `input/`, nella cartella Drive condivisa (contiene solo gli 8 file dei nastri), negli allegati della sessione e nell'intero filesystem.
 Non ricostruisco il layout e soprattutto il RAT (brevettato) senza il loro modello: sarebbe una geometria inventata. Dettagli, elenco dei file richiesti, piano di lavoro e tempi in `B_layout_RAT/test_fattibilita/FATTIBILITA.md`.
 
-## 6. Video
-**[DA COMPLETARE a fine render]**
+## 6. Video dell'assieme (`A_nastri/video/`)
+| File | Specifiche |
+|---|---|
+| `PX0000381686_rotazione360_zoom_v2.mp4` | 1920×1080, 25 fps, **14,0 s** (350 frame), H.264 `-preset veryfast` CRF 20, 3,0 MB |
+| `PX0000381686_rotazione360_zoom_v2_web.mp4` | versione web 1280×720, CRF 26, `faststart`, 0,5 MB |
+| `..._poster.jpg` | primo frame |
+
+**Sequenza:** parte da `34alta`; rotazione completa di 360° in 9 s (ease in/out); pausa di 1 s nella posizione iniziale; zoom in 4 s (ease in/out, distanza 20,8 → 5,0 m a lente fissa 35 mm) fino a `34hero`. Nessun audio. Materiali v2, **freno in variante a**.
+**Render:** 16 sample con denoise, circa 50 s a frame, **4,9 ore** di calcolo totali.
+**Verifiche eseguite sul video:** il frame 249 (fine giro) e' identico al frame 0 (differenza media 0,0); il frame 1 coincide con `34alta` e l'ultimo con `34hero` (differenza media ~2 su 255, dovuta a rumore e compressione); nessuno scatto tra frame consecutivi (nessun picco rispetto alla media locale); la camera si allontana a 25,6 m quando l'assieme e' visto di testa per non tagliarlo.
+**Limiti:** non c'e' una versione in loop continuo, perche' il video finisce sull'hero e non sulla partenza. L'assieme e' lungo 18 m e durante la rotazione appare piccolo nel frame (stesso effetto di `34alta`).
 
 ## 7. Verifica eseguita
 - Immagini principali guardate una per una nei confronti: alluminio opaco, inox satinato, guide bicolore, blu uniforme, freno grigio, motore e trasferimento invariati.
 - GLB: caricati nel viewer in Chromium, tutti senza errori (1,7–5 s con la CPU occupata dal render).
+- Video: vedi §6.
 - Non verificato: contenuto dei WeTransfer, layout e RAT (file assenti).

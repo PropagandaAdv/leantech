@@ -10,3 +10,695 @@ frame 2/349 68s  az 62.1 dist 20.8
 frame 3/349 66s  az 62.2 dist 20.8
 05:58.307  render           | Saved: 'work/video_frames/frame_0004.jpg'
 frame 4/349 85s  az 62.3 dist 20.8
+06:57.675  render           | Saved: 'work/video_frames/frame_0005.jpg'
+frame 5/349 59s  az 62.5 dist 20.8
+07:53.819  render           | Saved: 'work/video_frames/frame_0006.jpg'
+frame 6/349 56s  az 62.8 dist 20.8
+08:44.921  render           | Saved: 'work/video_frames/frame_0007.jpg'
+frame 7/349 51s  az 63.0 dist 20.8
+09:36.225  render           | Saved: 'work/video_frames/frame_0008.jpg'
+frame 8/349 51s  az 63.3 dist 20.8
+10:26.416  render           | Saved: 'work/video_frames/frame_0009.jpg'
+frame 9/349 50s  az 63.7 dist 20.8
+11:17.794  render           | Saved: 'work/video_frames/frame_0010.jpg'
+frame 10/349 51s  az 64.1 dist 20.8
+12:09.318  render           | Saved: 'work/video_frames/frame_0011.jpg'
+frame 11/349 52s  az 64.5 dist 20.8
+12:59.541  render           | Saved: 'work/video_frames/frame_0012.jpg'
+frame 12/349 50s  az 65.0 dist 20.8
+13:49.020  render           | Saved: 'work/video_frames/frame_0013.jpg'
+frame 13/349 49s  az 65.5 dist 20.8
+14:36.683  render           | Saved: 'work/video_frames/frame_0014.jpg'
+frame 14/349 48s  az 66.0 dist 20.8
+15:27.662  render           | Saved: 'work/video_frames/frame_0015.jpg'
+frame 15/349 51s  az 66.6 dist 20.8
+16:19.727  render           | Saved: 'work/video_frames/frame_0016.jpg'
+frame 16/349 52s  az 67.2 dist 20.8
+17:10.403  render           | Saved: 'work/video_frames/frame_0017.jpg'
+frame 17/349 51s  az 67.9 dist 20.8
+18:02.469  render           | Saved: 'work/video_frames/frame_0018.jpg'
+frame 18/349 52s  az 68.5 dist 20.8
+18:52.294  render           | Saved: 'work/video_frames/frame_0019.jpg'
+frame 19/349 50s  az 69.3 dist 20.8
+19:45.414  render           | Saved: 'work/video_frames/frame_0020.jpg'
+frame 20/349 53s  az 70.0 dist 20.8
+20:35.369  render           | Saved: 'work/video_frames/frame_0021.jpg'
+frame 21/349 50s  az 70.8 dist 20.8
+21:24.631  render           | Saved: 'work/video_frames/frame_0022.jpg'
+frame 22/349 49s  az 71.7 dist 20.8
+22:13.915  render           | Saved: 'work/video_frames/frame_0023.jpg'
+frame 23/349 49s  az 72.5 dist 20.8
+23:02.792  render           | Saved: 'work/video_frames/frame_0024.jpg'
+frame 24/349 49s  az 73.4 dist 20.8
+23:51.634  render           | Saved: 'work/video_frames/frame_0025.jpg'
+frame 25/349 49s  az 74.3 dist 20.8
+24:38.344  render           | Saved: 'work/video_frames/frame_0026.jpg'
+frame 26/349 47s  az 75.3 dist 20.8
+25:25.047  render           | Saved: 'work/video_frames/frame_0027.jpg'
+frame 27/349 47s  az 76.3 dist 20.8
+26:12.597  render           | Saved: 'work/video_frames/frame_0028.jpg'
+frame 28/349 48s  az 77.3 dist 20.8
+27:01.486  render           | Saved: 'work/video_frames/frame_0029.jpg'
+frame 29/349 49s  az 78.4 dist 20.8
+27:50.461  render           | Saved: 'work/video_frames/frame_0030.jpg'
+frame 30/349 49s  az 79.5 dist 20.8
+28:42.431  render           | Saved: 'work/video_frames/frame_0031.jpg'
+frame 31/349 52s  az 80.6 dist 20.8
+29:33.724  render           | Saved: 'work/video_frames/frame_0032.jpg'
+frame 32/349 51s  az 81.8 dist 20.8
+30:21.625  render           | Saved: 'work/video_frames/frame_0033.jpg'
+frame 33/349 48s  az 83.0 dist 20.8
+31:09.580  render           | Saved: 'work/video_frames/frame_0034.jpg'
+frame 34/349 48s  az 84.2 dist 20.8
+31:57.937  render           | Saved: 'work/video_frames/frame_0035.jpg'
+frame 35/349 48s  az 85.4 dist 20.8
+32:45.589  render           | Saved: 'work/video_frames/frame_0036.jpg'
+frame 36/349 48s  az 86.7 dist 20.8
+33:31.472  render           | Saved: 'work/video_frames/frame_0037.jpg'
+frame 37/349 46s  az 88.0 dist 20.8
+34:18.197  render           | Saved: 'work/video_frames/frame_0038.jpg'
+frame 38/349 47s  az 89.3 dist 20.8
+35:06.207  render           | Saved: 'work/video_frames/frame_0039.jpg'
+frame 39/349 48s  az 90.7 dist 20.8
+35:53.181  render           | Saved: 'work/video_frames/frame_0040.jpg'
+frame 40/349 47s  az 92.1 dist 20.8
+36:42.191  render           | Saved: 'work/video_frames/frame_0041.jpg'
+frame 41/349 49s  az 93.5 dist 20.8
+37:30.869  render           | Saved: 'work/video_frames/frame_0042.jpg'
+frame 42/349 49s  az 94.9 dist 20.8
+38:20.568  render           | Saved: 'work/video_frames/frame_0043.jpg'
+frame 43/349 50s  az 96.4 dist 20.8
+39:13.133  render           | Saved: 'work/video_frames/frame_0044.jpg'
+frame 44/349 53s  az 97.9 dist 20.8
+40:03.299  render           | Saved: 'work/video_frames/frame_0045.jpg'
+frame 45/349 50s  az 99.4 dist 20.8
+40:54.255  render           | Saved: 'work/video_frames/frame_0046.jpg'
+frame 46/349 51s  az 101.0 dist 20.8
+41:45.320  render           | Saved: 'work/video_frames/frame_0047.jpg'
+frame 47/349 51s  az 102.6 dist 20.8
+42:33.937  render           | Saved: 'work/video_frames/frame_0048.jpg'
+frame 48/349 49s  az 104.2 dist 20.8
+43:26.207  render           | Saved: 'work/video_frames/frame_0049.jpg'
+frame 49/349 52s  az 105.8 dist 20.8
+44:19.029  render           | Saved: 'work/video_frames/frame_0050.jpg'
+frame 50/349 53s  az 107.4 dist 20.8
+45:12.640  render           | Saved: 'work/video_frames/frame_0051.jpg'
+frame 51/349 54s  az 109.1 dist 20.8
+46:06.040  render           | Saved: 'work/video_frames/frame_0052.jpg'
+frame 52/349 53s  az 110.8 dist 20.8
+46:58.435  render           | Saved: 'work/video_frames/frame_0053.jpg'
+frame 53/349 52s  az 112.5 dist 20.8
+47:50.051  render           | Saved: 'work/video_frames/frame_0054.jpg'
+frame 54/349 52s  az 114.3 dist 20.8
+48:41.566  render           | Saved: 'work/video_frames/frame_0055.jpg'
+frame 55/349 52s  az 116.0 dist 20.8
+49:33.859  render           | Saved: 'work/video_frames/frame_0056.jpg'
+frame 56/349 52s  az 117.8 dist 20.8
+50:30.184  render           | Saved: 'work/video_frames/frame_0057.jpg'
+frame 57/349 56s  az 119.6 dist 20.8
+51:25.318  render           | Saved: 'work/video_frames/frame_0058.jpg'
+frame 58/349 55s  az 121.4 dist 20.8
+52:17.038  render           | Saved: 'work/video_frames/frame_0059.jpg'
+frame 59/349 52s  az 123.3 dist 20.8
+53:07.117  render           | Saved: 'work/video_frames/frame_0060.jpg'
+frame 60/349 50s  az 125.1 dist 20.8
+53:58.388  render           | Saved: 'work/video_frames/frame_0061.jpg'
+frame 61/349 51s  az 127.0 dist 20.9
+54:50.470  render           | Saved: 'work/video_frames/frame_0062.jpg'
+frame 62/349 52s  az 128.9 dist 21.0
+55:44.256  render           | Saved: 'work/video_frames/frame_0063.jpg'
+frame 63/349 54s  az 130.9 dist 21.1
+56:38.574  render           | Saved: 'work/video_frames/frame_0064.jpg'
+frame 64/349 54s  az 132.8 dist 21.2
+57:33.053  render           | Saved: 'work/video_frames/frame_0065.jpg'
+frame 65/349 54s  az 134.8 dist 21.4
+58:26.415  render           | Saved: 'work/video_frames/frame_0066.jpg'
+frame 66/349 53s  az 136.8 dist 21.6
+59:15.673  render           | Saved: 'work/video_frames/frame_0067.jpg'
+frame 67/349 49s  az 138.8 dist 21.7
+01:00:05.796  render           | Saved: 'work/video_frames/frame_0068.jpg'
+frame 68/349 50s  az 140.8 dist 22.0
+01:00:56.084  render           | Saved: 'work/video_frames/frame_0069.jpg'
+frame 69/349 50s  az 142.8 dist 22.2
+01:01:46.036  render           | Saved: 'work/video_frames/frame_0070.jpg'
+frame 70/349 50s  az 144.9 dist 22.4
+01:02:35.628  render           | Saved: 'work/video_frames/frame_0071.jpg'
+frame 71/349 50s  az 146.9 dist 22.7
+01:03:26.570  render           | Saved: 'work/video_frames/frame_0072.jpg'
+frame 72/349 51s  az 149.0 dist 23.0
+01:04:16.780  render           | Saved: 'work/video_frames/frame_0073.jpg'
+frame 73/349 50s  az 151.1 dist 23.4
+01:05:05.404  render           | Saved: 'work/video_frames/frame_0074.jpg'
+frame 74/349 49s  az 153.2 dist 24.1
+01:05:55.732  render           | Saved: 'work/video_frames/frame_0075.jpg'
+frame 75/349 50s  az 155.3 dist 24.1
+01:06:44.391  render           | Saved: 'work/video_frames/frame_0076.jpg'
+frame 76/349 49s  az 157.5 dist 24.8
+01:07:31.213  render           | Saved: 'work/video_frames/frame_0077.jpg'
+frame 77/349 47s  az 159.6 dist 24.8
+01:08:18.166  render           | Saved: 'work/video_frames/frame_0078.jpg'
+frame 78/349 47s  az 161.8 dist 24.8
+01:09:06.361  render           | Saved: 'work/video_frames/frame_0079.jpg'
+frame 79/349 48s  az 164.0 dist 25.6
+01:09:55.416  render           | Saved: 'work/video_frames/frame_0080.jpg'
+frame 80/349 49s  az 166.2 dist 25.6
+01:10:42.855  render           | Saved: 'work/video_frames/frame_0081.jpg'
+frame 81/349 47s  az 168.4 dist 25.6
+01:11:29.812  render           | Saved: 'work/video_frames/frame_0082.jpg'
+frame 82/349 47s  az 170.6 dist 25.6
+01:12:14.251  render           | Saved: 'work/video_frames/frame_0083.jpg'
+frame 83/349 44s  az 172.8 dist 25.6
+01:12:57.178  render           | Saved: 'work/video_frames/frame_0084.jpg'
+frame 84/349 43s  az 175.1 dist 26.3
+01:13:40.175  render           | Saved: 'work/video_frames/frame_0085.jpg'
+frame 85/349 43s  az 177.3 dist 26.3
+01:14:24.270  render           | Saved: 'work/video_frames/frame_0086.jpg'
+frame 86/349 44s  az 179.6 dist 26.2
+01:15:09.575  render           | Saved: 'work/video_frames/frame_0087.jpg'
+frame 87/349 45s  az 181.8 dist 26.3
+01:15:55.216  render           | Saved: 'work/video_frames/frame_0088.jpg'
+frame 88/349 46s  az 184.1 dist 26.3
+01:16:42.211  render           | Saved: 'work/video_frames/frame_0089.jpg'
+frame 89/349 47s  az 186.4 dist 25.6
+01:17:30.860  render           | Saved: 'work/video_frames/frame_0090.jpg'
+frame 90/349 49s  az 188.7 dist 25.6
+01:18:20.891  render           | Saved: 'work/video_frames/frame_0091.jpg'
+frame 91/349 50s  az 191.0 dist 25.6
+01:19:12.788  render           | Saved: 'work/video_frames/frame_0092.jpg'
+frame 92/349 52s  az 193.3 dist 25.6
+01:20:09.894  render           | Saved: 'work/video_frames/frame_0093.jpg'
+frame 93/349 57s  az 195.7 dist 25.6
+01:21:04.358  render           | Saved: 'work/video_frames/frame_0094.jpg'
+frame 94/349 54s  az 198.0 dist 24.8
+01:21:58.504  render           | Saved: 'work/video_frames/frame_0095.jpg'
+frame 95/349 54s  az 200.3 dist 24.8
+01:22:54.083  render           | Saved: 'work/video_frames/frame_0096.jpg'
+frame 96/349 56s  az 202.7 dist 24.8
+01:23:47.095  render           | Saved: 'work/video_frames/frame_0097.jpg'
+frame 97/349 53s  az 205.0 dist 24.1
+01:24:39.485  render           | Saved: 'work/video_frames/frame_0098.jpg'
+frame 98/349 52s  az 207.4 dist 23.6
+01:25:30.366  render           | Saved: 'work/video_frames/frame_0099.jpg'
+frame 99/349 51s  az 209.8 dist 23.4
+01:26:21.703  render           | Saved: 'work/video_frames/frame_0100.jpg'
+frame 100/349 51s  az 212.1 dist 22.8
+01:27:13.449  render           | Saved: 'work/video_frames/frame_0101.jpg'
+frame 101/349 52s  az 214.5 dist 22.5
+01:28:09.738  render           | Saved: 'work/video_frames/frame_0102.jpg'
+frame 102/349 56s  az 216.9 dist 22.2
+01:29:02.384  render           | Saved: 'work/video_frames/frame_0103.jpg'
+frame 103/349 53s  az 219.3 dist 22.0
+01:29:54.212  render           | Saved: 'work/video_frames/frame_0104.jpg'
+frame 104/349 52s  az 221.6 dist 21.7
+01:30:41.877  render           | Saved: 'work/video_frames/frame_0105.jpg'
+frame 105/349 48s  az 224.0 dist 21.5
+01:31:30.182  render           | Saved: 'work/video_frames/frame_0106.jpg'
+frame 106/349 48s  az 226.4 dist 21.3
+01:32:17.374  render           | Saved: 'work/video_frames/frame_0107.jpg'
+frame 107/349 47s  az 228.8 dist 21.1
+01:33:04.972  render           | Saved: 'work/video_frames/frame_0108.jpg'
+frame 108/349 48s  az 231.2 dist 21.0
+01:33:53.165  render           | Saved: 'work/video_frames/frame_0109.jpg'
+frame 109/349 48s  az 233.6 dist 20.9
+01:34:41.935  render           | Saved: 'work/video_frames/frame_0110.jpg'
+frame 110/349 49s  az 236.0 dist 20.8
+01:35:31.378  render           | Saved: 'work/video_frames/frame_0111.jpg'
+frame 111/349 49s  az 238.4 dist 20.8
+01:36:19.565  render           | Saved: 'work/video_frames/frame_0112.jpg'
+frame 112/349 48s  az 240.8 dist 20.8
+01:37:11.286  render           | Saved: 'work/video_frames/frame_0113.jpg'
+frame 113/349 52s  az 243.2 dist 20.8
+01:38:00.906  render           | Saved: 'work/video_frames/frame_0114.jpg'
+frame 114/349 50s  az 245.6 dist 20.8
+01:38:49.187  render           | Saved: 'work/video_frames/frame_0115.jpg'
+frame 115/349 48s  az 248.0 dist 20.8
+01:39:39.891  render           | Saved: 'work/video_frames/frame_0116.jpg'
+frame 116/349 51s  az 250.4 dist 20.8
+01:40:28.380  render           | Saved: 'work/video_frames/frame_0117.jpg'
+frame 117/349 48s  az 252.8 dist 20.8
+01:41:15.652  render           | Saved: 'work/video_frames/frame_0118.jpg'
+frame 118/349 47s  az 255.2 dist 20.8
+01:42:03.163  render           | Saved: 'work/video_frames/frame_0119.jpg'
+frame 119/349 48s  az 257.6 dist 20.8
+01:42:49.966  render           | Saved: 'work/video_frames/frame_0120.jpg'
+frame 120/349 47s  az 260.0 dist 20.8
+01:43:34.331  render           | Saved: 'work/video_frames/frame_0121.jpg'
+frame 121/349 44s  az 262.4 dist 20.8
+01:44:19.640  render           | Saved: 'work/video_frames/frame_0122.jpg'
+frame 122/349 45s  az 264.7 dist 20.8
+01:45:05.211  render           | Saved: 'work/video_frames/frame_0123.jpg'
+frame 123/349 46s  az 267.1 dist 20.8
+01:45:49.798  render           | Saved: 'work/video_frames/frame_0124.jpg'
+frame 124/349 45s  az 269.5 dist 20.8
+01:46:34.178  render           | Saved: 'work/video_frames/frame_0125.jpg'
+frame 125/349 44s  az 271.9 dist 20.8
+01:47:19.336  render           | Saved: 'work/video_frames/frame_0126.jpg'
+frame 126/349 45s  az 274.2 dist 20.8
+01:48:06.696  render           | Saved: 'work/video_frames/frame_0127.jpg'
+frame 127/349 47s  az 276.6 dist 20.8
+01:48:56.289  render           | Saved: 'work/video_frames/frame_0128.jpg'
+frame 128/349 50s  az 279.0 dist 20.8
+01:49:45.148  render           | Saved: 'work/video_frames/frame_0129.jpg'
+frame 129/349 49s  az 281.3 dist 20.8
+01:50:34.969  render           | Saved: 'work/video_frames/frame_0130.jpg'
+frame 130/349 50s  az 283.7 dist 20.8
+01:51:23.205  render           | Saved: 'work/video_frames/frame_0131.jpg'
+frame 131/349 48s  az 286.0 dist 20.8
+01:52:11.835  render           | Saved: 'work/video_frames/frame_0132.jpg'
+frame 132/349 49s  az 288.3 dist 20.8
+01:53:02.392  render           | Saved: 'work/video_frames/frame_0133.jpg'
+frame 133/349 51s  az 290.7 dist 20.8
+01:53:52.308  render           | Saved: 'work/video_frames/frame_0134.jpg'
+frame 134/349 50s  az 293.0 dist 20.8
+01:54:41.234  render           | Saved: 'work/video_frames/frame_0135.jpg'
+frame 135/349 49s  az 295.3 dist 20.8
+01:55:30.223  render           | Saved: 'work/video_frames/frame_0136.jpg'
+frame 136/349 49s  az 297.6 dist 20.8
+01:56:21.857  render           | Saved: 'work/video_frames/frame_0137.jpg'
+frame 137/349 52s  az 299.9 dist 20.8
+01:57:12.389  render           | Saved: 'work/video_frames/frame_0138.jpg'
+frame 138/349 51s  az 302.2 dist 20.8
+01:58:02.543  render           | Saved: 'work/video_frames/frame_0139.jpg'
+frame 139/349 50s  az 304.4 dist 20.8
+01:58:54.745  render           | Saved: 'work/video_frames/frame_0140.jpg'
+frame 140/349 52s  az 306.7 dist 20.9
+01:59:47.773  render           | Saved: 'work/video_frames/frame_0141.jpg'
+frame 141/349 53s  az 308.9 dist 21.0
+02:00:39.023  render           | Saved: 'work/video_frames/frame_0142.jpg'
+frame 142/349 51s  az 311.2 dist 21.1
+02:01:28.940  render           | Saved: 'work/video_frames/frame_0143.jpg'
+frame 143/349 50s  az 313.4 dist 21.3
+02:02:17.043  render           | Saved: 'work/video_frames/frame_0144.jpg'
+frame 144/349 48s  az 315.6 dist 21.5
+02:03:05.123  render           | Saved: 'work/video_frames/frame_0145.jpg'
+frame 145/349 48s  az 317.8 dist 21.7
+02:03:55.097  render           | Saved: 'work/video_frames/frame_0146.jpg'
+frame 146/349 50s  az 320.0 dist 21.9
+02:04:43.872  render           | Saved: 'work/video_frames/frame_0147.jpg'
+frame 147/349 49s  az 322.2 dist 22.1
+02:05:34.063  render           | Saved: 'work/video_frames/frame_0148.jpg'
+frame 148/349 50s  az 324.4 dist 22.4
+02:06:22.134  render           | Saved: 'work/video_frames/frame_0149.jpg'
+frame 149/349 48s  az 326.5 dist 22.7
+02:07:09.686  render           | Saved: 'work/video_frames/frame_0150.jpg'
+frame 150/349 48s  az 328.7 dist 22.9
+02:07:58.194  render           | Saved: 'work/video_frames/frame_0151.jpg'
+frame 151/349 49s  az 330.8 dist 23.4
+02:08:48.606  render           | Saved: 'work/video_frames/frame_0152.jpg'
+frame 152/349 50s  az 332.9 dist 24.0
+02:09:35.963  render           | Saved: 'work/video_frames/frame_0153.jpg'
+frame 153/349 47s  az 335.0 dist 24.1
+02:10:22.746  render           | Saved: 'work/video_frames/frame_0154.jpg'
+frame 154/349 47s  az 337.1 dist 24.8
+02:11:09.812  render           | Saved: 'work/video_frames/frame_0155.jpg'
+frame 155/349 47s  az 339.1 dist 24.8
+02:11:56.904  render           | Saved: 'work/video_frames/frame_0156.jpg'
+frame 156/349 47s  az 341.2 dist 24.8
+02:12:43.600  render           | Saved: 'work/video_frames/frame_0157.jpg'
+frame 157/349 47s  az 343.2 dist 25.6
+02:13:30.714  render           | Saved: 'work/video_frames/frame_0158.jpg'
+frame 158/349 47s  az 345.2 dist 25.6
+02:14:17.624  render           | Saved: 'work/video_frames/frame_0159.jpg'
+frame 159/349 47s  az 347.2 dist 25.6
+02:15:05.433  render           | Saved: 'work/video_frames/frame_0160.jpg'
+frame 160/349 48s  az 349.2 dist 25.6
+02:15:51.252  render           | Saved: 'work/video_frames/frame_0161.jpg'
+frame 161/349 46s  az 351.2 dist 25.6
+02:16:36.011  render           | Saved: 'work/video_frames/frame_0162.jpg'
+frame 162/349 45s  az 353.1 dist 25.6
+02:17:19.306  render           | Saved: 'work/video_frames/frame_0163.jpg'
+frame 163/349 43s  az 355.1 dist 26.3
+02:18:02.059  render           | Saved: 'work/video_frames/frame_0164.jpg'
+frame 164/349 43s  az 357.0 dist 26.3
+02:18:44.664  render           | Saved: 'work/video_frames/frame_0165.jpg'
+frame 165/349 43s  az 358.9 dist 26.3
+02:19:28.800  render           | Saved: 'work/video_frames/frame_0166.jpg'
+frame 166/349 44s  az 0.7 dist 26.3
+02:20:11.986  render           | Saved: 'work/video_frames/frame_0167.jpg'
+frame 167/349 43s  az 2.6 dist 26.3
+02:20:55.656  render           | Saved: 'work/video_frames/frame_0168.jpg'
+frame 168/349 44s  az 4.4 dist 26.3
+02:21:39.917  render           | Saved: 'work/video_frames/frame_0169.jpg'
+frame 169/349 44s  az 6.2 dist 25.6
+02:22:26.036  render           | Saved: 'work/video_frames/frame_0170.jpg'
+frame 170/349 46s  az 8.0 dist 25.6
+02:23:12.651  render           | Saved: 'work/video_frames/frame_0171.jpg'
+frame 171/349 47s  az 9.7 dist 25.6
+02:23:59.743  render           | Saved: 'work/video_frames/frame_0172.jpg'
+frame 172/349 47s  az 11.5 dist 25.6
+02:24:45.865  render           | Saved: 'work/video_frames/frame_0173.jpg'
+frame 173/349 46s  az 13.2 dist 25.6
+02:25:33.553  render           | Saved: 'work/video_frames/frame_0174.jpg'
+frame 174/349 48s  az 14.9 dist 25.6
+02:26:20.256  render           | Saved: 'work/video_frames/frame_0175.jpg'
+frame 175/349 47s  az 16.6 dist 25.6
+02:27:10.189  render           | Saved: 'work/video_frames/frame_0176.jpg'
+frame 176/349 50s  az 18.2 dist 24.8
+02:28:01.241  render           | Saved: 'work/video_frames/frame_0177.jpg'
+frame 177/349 51s  az 19.8 dist 24.8
+02:28:52.248  render           | Saved: 'work/video_frames/frame_0178.jpg'
+frame 178/349 51s  az 21.4 dist 24.8
+02:29:41.404  render           | Saved: 'work/video_frames/frame_0179.jpg'
+frame 179/349 49s  az 23.0 dist 24.8
+02:30:32.093  render           | Saved: 'work/video_frames/frame_0180.jpg'
+frame 180/349 51s  az 24.6 dist 24.1
+02:31:21.450  render           | Saved: 'work/video_frames/frame_0181.jpg'
+frame 181/349 49s  az 26.1 dist 24.1
+02:32:12.850  render           | Saved: 'work/video_frames/frame_0182.jpg'
+frame 182/349 51s  az 27.6 dist 23.4
+02:33:08.218  render           | Saved: 'work/video_frames/frame_0183.jpg'
+frame 183/349 55s  az 29.1 dist 23.4
+02:34:00.879  render           | Saved: 'work/video_frames/frame_0184.jpg'
+frame 184/349 53s  az 30.5 dist 23.4
+02:34:50.199  render           | Saved: 'work/video_frames/frame_0185.jpg'
+frame 185/349 49s  az 31.9 dist 22.8
+02:35:39.608  render           | Saved: 'work/video_frames/frame_0186.jpg'
+frame 186/349 49s  az 33.3 dist 22.7
+02:36:29.194  render           | Saved: 'work/video_frames/frame_0187.jpg'
+frame 187/349 50s  az 34.7 dist 22.5
+02:37:18.613  render           | Saved: 'work/video_frames/frame_0188.jpg'
+frame 188/349 49s  az 36.0 dist 22.3
+02:38:06.373  render           | Saved: 'work/video_frames/frame_0189.jpg'
+frame 189/349 48s  az 37.3 dist 22.2
+02:38:53.890  render           | Saved: 'work/video_frames/frame_0190.jpg'
+frame 190/349 48s  az 38.6 dist 22.0
+02:39:42.610  render           | Saved: 'work/video_frames/frame_0191.jpg'
+frame 191/349 49s  az 39.8 dist 21.9
+02:40:33.141  render           | Saved: 'work/video_frames/frame_0192.jpg'
+frame 192/349 51s  az 41.0 dist 21.8
+02:41:23.169  render           | Saved: 'work/video_frames/frame_0193.jpg'
+frame 193/349 50s  az 42.2 dist 21.6
+02:42:11.766  render           | Saved: 'work/video_frames/frame_0194.jpg'
+frame 194/349 49s  az 43.4 dist 21.5
+02:43:01.241  render           | Saved: 'work/video_frames/frame_0195.jpg'
+frame 195/349 49s  az 44.5 dist 21.4
+02:43:52.458  render           | Saved: 'work/video_frames/frame_0196.jpg'
+frame 196/349 51s  az 45.6 dist 21.3
+02:44:42.175  render           | Saved: 'work/video_frames/frame_0197.jpg'
+frame 197/349 50s  az 46.7 dist 21.3
+02:45:32.000  render           | Saved: 'work/video_frames/frame_0198.jpg'
+frame 198/349 50s  az 47.7 dist 21.2
+02:46:21.566  render           | Saved: 'work/video_frames/frame_0199.jpg'
+frame 199/349 50s  az 48.7 dist 21.1
+02:47:11.836  render           | Saved: 'work/video_frames/frame_0200.jpg'
+frame 200/349 50s  az 49.7 dist 21.1
+02:48:01.569  render           | Saved: 'work/video_frames/frame_0201.jpg'
+frame 201/349 50s  az 50.6 dist 21.0
+02:48:51.949  render           | Saved: 'work/video_frames/frame_0202.jpg'
+frame 202/349 50s  az 51.5 dist 21.0
+02:49:40.965  render           | Saved: 'work/video_frames/frame_0203.jpg'
+frame 203/349 49s  az 52.3 dist 20.9
+02:50:31.747  render           | Saved: 'work/video_frames/frame_0204.jpg'
+frame 204/349 51s  az 53.2 dist 20.9
+02:51:19.553  render           | Saved: 'work/video_frames/frame_0205.jpg'
+frame 205/349 48s  az 54.0 dist 20.9
+02:52:06.963  render           | Saved: 'work/video_frames/frame_0206.jpg'
+frame 206/349 47s  az 54.7 dist 20.8
+02:52:54.909  render           | Saved: 'work/video_frames/frame_0207.jpg'
+frame 207/349 48s  az 55.5 dist 20.8
+02:53:45.029  render           | Saved: 'work/video_frames/frame_0208.jpg'
+frame 208/349 50s  az 56.1 dist 20.8
+02:54:33.653  render           | Saved: 'work/video_frames/frame_0209.jpg'
+frame 209/349 49s  az 56.8 dist 20.8
+02:55:22.036  render           | Saved: 'work/video_frames/frame_0210.jpg'
+frame 210/349 48s  az 57.4 dist 20.8
+02:56:09.694  render           | Saved: 'work/video_frames/frame_0211.jpg'
+frame 211/349 48s  az 58.0 dist 20.8
+02:56:58.717  render           | Saved: 'work/video_frames/frame_0212.jpg'
+frame 212/349 49s  az 58.5 dist 20.8
+02:57:47.962  render           | Saved: 'work/video_frames/frame_0213.jpg'
+frame 213/349 49s  az 59.0 dist 20.8
+02:58:35.673  render           | Saved: 'work/video_frames/frame_0214.jpg'
+frame 214/349 48s  az 59.5 dist 20.8
+02:59:23.256  render           | Saved: 'work/video_frames/frame_0215.jpg'
+frame 215/349 48s  az 59.9 dist 20.8
+03:00:10.766  render           | Saved: 'work/video_frames/frame_0216.jpg'
+frame 216/349 48s  az 60.3 dist 20.8
+03:00:58.895  render           | Saved: 'work/video_frames/frame_0217.jpg'
+frame 217/349 48s  az 60.7 dist 20.8
+03:01:48.389  render           | Saved: 'work/video_frames/frame_0218.jpg'
+frame 218/349 49s  az 61.0 dist 20.8
+03:02:36.238  render           | Saved: 'work/video_frames/frame_0219.jpg'
+frame 219/349 48s  az 61.2 dist 20.8
+03:03:24.275  render           | Saved: 'work/video_frames/frame_0220.jpg'
+frame 220/349 48s  az 61.5 dist 20.8
+03:04:12.343  render           | Saved: 'work/video_frames/frame_0221.jpg'
+frame 221/349 48s  az 61.7 dist 20.8
+03:04:59.689  render           | Saved: 'work/video_frames/frame_0222.jpg'
+frame 222/349 47s  az 61.8 dist 20.8
+03:05:46.749  render           | Saved: 'work/video_frames/frame_0223.jpg'
+frame 223/349 47s  az 61.9 dist 20.8
+03:06:35.231  render           | Saved: 'work/video_frames/frame_0224.jpg'
+frame 224/349 48s  az 62.0 dist 20.8
+03:07:25.516  render           | Saved: 'work/video_frames/frame_0225.jpg'
+frame 225/349 50s  az 62.0 dist 20.8
+03:08:16.335  render           | Saved: 'work/video_frames/frame_0226.jpg'
+frame 226/349 51s  az 62.0 dist 20.8
+03:09:03.607  render           | Saved: 'work/video_frames/frame_0227.jpg'
+frame 227/349 47s  az 62.0 dist 20.8
+03:09:51.216  render           | Saved: 'work/video_frames/frame_0228.jpg'
+frame 228/349 48s  az 62.0 dist 20.8
+03:10:38.058  render           | Saved: 'work/video_frames/frame_0229.jpg'
+frame 229/349 47s  az 62.0 dist 20.8
+03:11:24.476  render           | Saved: 'work/video_frames/frame_0230.jpg'
+frame 230/349 46s  az 62.0 dist 20.8
+03:12:11.344  render           | Saved: 'work/video_frames/frame_0231.jpg'
+frame 231/349 47s  az 62.0 dist 20.8
+03:12:58.433  render           | Saved: 'work/video_frames/frame_0232.jpg'
+frame 232/349 47s  az 62.0 dist 20.8
+03:13:45.602  render           | Saved: 'work/video_frames/frame_0233.jpg'
+frame 233/349 47s  az 62.0 dist 20.8
+03:14:32.117  render           | Saved: 'work/video_frames/frame_0234.jpg'
+frame 234/349 47s  az 62.0 dist 20.8
+03:15:21.310  render           | Saved: 'work/video_frames/frame_0235.jpg'
+frame 235/349 49s  az 62.0 dist 20.8
+03:16:11.579  render           | Saved: 'work/video_frames/frame_0236.jpg'
+frame 236/349 50s  az 62.0 dist 20.8
+03:17:01.126  render           | Saved: 'work/video_frames/frame_0237.jpg'
+frame 237/349 50s  az 62.0 dist 20.8
+03:17:51.131  render           | Saved: 'work/video_frames/frame_0238.jpg'
+frame 238/349 50s  az 62.0 dist 20.8
+03:18:41.068  render           | Saved: 'work/video_frames/frame_0239.jpg'
+frame 239/349 50s  az 62.0 dist 20.8
+03:19:31.154  render           | Saved: 'work/video_frames/frame_0240.jpg'
+frame 240/349 50s  az 62.0 dist 20.8
+03:20:21.414  render           | Saved: 'work/video_frames/frame_0241.jpg'
+frame 241/349 50s  az 62.0 dist 20.8
+03:21:14.374  render           | Saved: 'work/video_frames/frame_0242.jpg'
+frame 242/349 53s  az 62.0 dist 20.8
+03:22:06.998  render           | Saved: 'work/video_frames/frame_0243.jpg'
+frame 243/349 53s  az 62.0 dist 20.8
+03:22:56.501  render           | Saved: 'work/video_frames/frame_0244.jpg'
+frame 244/349 50s  az 62.0 dist 20.8
+03:23:45.067  render           | Saved: 'work/video_frames/frame_0245.jpg'
+frame 245/349 49s  az 62.0 dist 20.8
+03:24:33.669  render           | Saved: 'work/video_frames/frame_0246.jpg'
+frame 246/349 49s  az 62.0 dist 20.8
+03:25:24.251  render           | Saved: 'work/video_frames/frame_0247.jpg'
+frame 247/349 51s  az 62.0 dist 20.8
+03:26:15.107  render           | Saved: 'work/video_frames/frame_0248.jpg'
+frame 248/349 51s  az 62.0 dist 20.8
+03:27:07.141  render           | Saved: 'work/video_frames/frame_0249.jpg'
+frame 249/349 52s  az 62.0 dist 20.8
+03:27:54.581  render           | Saved: 'work/video_frames/frame_0250.jpg'
+frame 250/349 47s  az 62.0 dist 20.8
+03:28:43.137  render           | Saved: 'work/video_frames/frame_0251.jpg'
+frame 251/349 49s  az 62.0 dist 20.8
+03:29:31.660  render           | Saved: 'work/video_frames/frame_0252.jpg'
+frame 252/349 49s  az 62.0 dist 20.8
+03:30:18.732  render           | Saved: 'work/video_frames/frame_0253.jpg'
+frame 253/349 47s  az 62.0 dist 20.8
+03:31:06.455  render           | Saved: 'work/video_frames/frame_0254.jpg'
+frame 254/349 48s  az 62.0 dist 20.8
+03:31:54.194  render           | Saved: 'work/video_frames/frame_0255.jpg'
+frame 255/349 48s  az 62.0 dist 20.7
+03:32:43.207  render           | Saved: 'work/video_frames/frame_0256.jpg'
+frame 256/349 49s  az 62.0 dist 20.7
+03:33:32.860  render           | Saved: 'work/video_frames/frame_0257.jpg'
+frame 257/349 50s  az 62.0 dist 20.7
+03:34:21.920  render           | Saved: 'work/video_frames/frame_0258.jpg'
+frame 258/349 49s  az 62.0 dist 20.6
+03:35:09.008  render           | Saved: 'work/video_frames/frame_0259.jpg'
+frame 259/349 47s  az 62.0 dist 20.5
+03:35:56.705  render           | Saved: 'work/video_frames/frame_0260.jpg'
+frame 260/349 48s  az 62.0 dist 20.5
+03:36:45.000  render           | Saved: 'work/video_frames/frame_0261.jpg'
+frame 261/349 48s  az 61.9 dist 20.4
+03:37:33.609  render           | Saved: 'work/video_frames/frame_0262.jpg'
+frame 262/349 49s  az 61.9 dist 20.3
+03:38:24.356  render           | Saved: 'work/video_frames/frame_0263.jpg'
+frame 263/349 51s  az 61.9 dist 20.1
+03:39:15.142  render           | Saved: 'work/video_frames/frame_0264.jpg'
+frame 264/349 51s  az 61.9 dist 20.0
+03:40:06.724  render           | Saved: 'work/video_frames/frame_0265.jpg'
+frame 265/349 52s  az 61.9 dist 19.9
+03:40:57.499  render           | Saved: 'work/video_frames/frame_0266.jpg'
+frame 266/349 51s  az 61.9 dist 19.7
+03:41:45.513  render           | Saved: 'work/video_frames/frame_0267.jpg'
+frame 267/349 48s  az 61.8 dist 19.5
+03:42:32.210  render           | Saved: 'work/video_frames/frame_0268.jpg'
+frame 268/349 47s  az 61.8 dist 19.3
+03:43:21.206  render           | Saved: 'work/video_frames/frame_0269.jpg'
+frame 269/349 49s  az 61.8 dist 19.1
+03:44:09.994  render           | Saved: 'work/video_frames/frame_0270.jpg'
+frame 270/349 49s  az 61.7 dist 18.9
+03:45:00.076  render           | Saved: 'work/video_frames/frame_0271.jpg'
+frame 271/349 50s  az 61.7 dist 18.7
+03:45:48.267  render           | Saved: 'work/video_frames/frame_0272.jpg'
+frame 272/349 48s  az 61.7 dist 18.5
+03:46:35.906  render           | Saved: 'work/video_frames/frame_0273.jpg'
+frame 273/349 48s  az 61.6 dist 18.2
+03:47:24.553  render           | Saved: 'work/video_frames/frame_0274.jpg'
+frame 274/349 49s  az 61.6 dist 17.9
+03:48:13.228  render           | Saved: 'work/video_frames/frame_0275.jpg'
+frame 275/349 49s  az 61.5 dist 17.7
+03:49:03.274  render           | Saved: 'work/video_frames/frame_0276.jpg'
+frame 276/349 50s  az 61.5 dist 17.4
+03:49:53.080  render           | Saved: 'work/video_frames/frame_0277.jpg'
+frame 277/349 50s  az 61.4 dist 17.1
+03:50:42.901  render           | Saved: 'work/video_frames/frame_0278.jpg'
+frame 278/349 50s  az 61.4 dist 16.8
+03:51:30.930  render           | Saved: 'work/video_frames/frame_0279.jpg'
+frame 279/349 48s  az 61.3 dist 16.5
+03:52:20.013  render           | Saved: 'work/video_frames/frame_0280.jpg'
+frame 280/349 49s  az 61.3 dist 16.2
+03:53:09.637  render           | Saved: 'work/video_frames/frame_0281.jpg'
+frame 281/349 50s  az 61.2 dist 15.8
+03:53:58.731  render           | Saved: 'work/video_frames/frame_0282.jpg'
+frame 282/349 49s  az 61.2 dist 15.5
+03:54:49.761  render           | Saved: 'work/video_frames/frame_0283.jpg'
+frame 283/349 51s  az 61.1 dist 15.2
+03:55:41.704  render           | Saved: 'work/video_frames/frame_0284.jpg'
+frame 284/349 52s  az 61.1 dist 14.9
+03:56:32.698  render           | Saved: 'work/video_frames/frame_0285.jpg'
+frame 285/349 51s  az 61.0 dist 14.5
+03:57:24.274  render           | Saved: 'work/video_frames/frame_0286.jpg'
+frame 286/349 52s  az 60.9 dist 14.2
+03:58:15.546  render           | Saved: 'work/video_frames/frame_0287.jpg'
+frame 287/349 51s  az 60.9 dist 13.9
+03:59:07.470  render           | Saved: 'work/video_frames/frame_0288.jpg'
+frame 288/349 52s  az 60.8 dist 13.5
+03:59:56.813  render           | Saved: 'work/video_frames/frame_0289.jpg'
+frame 289/349 49s  az 60.7 dist 13.2
+04:00:46.128  render           | Saved: 'work/video_frames/frame_0290.jpg'
+frame 290/349 49s  az 60.7 dist 12.9
+04:01:34.421  render           | Saved: 'work/video_frames/frame_0291.jpg'
+frame 291/349 48s  az 60.6 dist 12.6
+04:02:22.758  render           | Saved: 'work/video_frames/frame_0292.jpg'
+frame 292/349 48s  az 60.5 dist 12.3
+04:03:10.415  render           | Saved: 'work/video_frames/frame_0293.jpg'
+frame 293/349 48s  az 60.4 dist 11.9
+04:04:00.862  render           | Saved: 'work/video_frames/frame_0294.jpg'
+frame 294/349 50s  az 60.4 dist 11.6
+04:04:52.895  render           | Saved: 'work/video_frames/frame_0295.jpg'
+frame 295/349 52s  az 60.3 dist 11.3
+04:05:42.266  render           | Saved: 'work/video_frames/frame_0296.jpg'
+frame 296/349 49s  az 60.2 dist 11.0
+04:06:30.969  render           | Saved: 'work/video_frames/frame_0297.jpg'
+frame 297/349 49s  az 60.1 dist 10.8
+04:07:20.755  render           | Saved: 'work/video_frames/frame_0298.jpg'
+frame 298/349 50s  az 60.1 dist 10.5
+04:08:12.360  render           | Saved: 'work/video_frames/frame_0299.jpg'
+frame 299/349 52s  az 60.0 dist 10.2
+04:09:02.800  render           | Saved: 'work/video_frames/frame_0300.jpg'
+frame 300/349 50s  az 59.9 dist 9.9
+04:09:52.508  render           | Saved: 'work/video_frames/frame_0301.jpg'
+frame 301/349 50s  az 59.9 dist 9.7
+04:10:42.836  render           | Saved: 'work/video_frames/frame_0302.jpg'
+frame 302/349 50s  az 59.8 dist 9.4
+04:11:32.169  render           | Saved: 'work/video_frames/frame_0303.jpg'
+frame 303/349 49s  az 59.7 dist 9.2
+04:12:23.242  render           | Saved: 'work/video_frames/frame_0304.jpg'
+frame 304/349 51s  az 59.6 dist 8.9
+04:13:15.230  render           | Saved: 'work/video_frames/frame_0305.jpg'
+frame 305/349 52s  az 59.6 dist 8.7
+04:14:09.776  render           | Saved: 'work/video_frames/frame_0306.jpg'
+frame 306/349 55s  az 59.5 dist 8.5
+04:15:01.323  render           | Saved: 'work/video_frames/frame_0307.jpg'
+frame 307/349 52s  az 59.4 dist 8.3
+04:15:53.546  render           | Saved: 'work/video_frames/frame_0308.jpg'
+frame 308/349 52s  az 59.3 dist 8.1
+04:16:47.119  render           | Saved: 'work/video_frames/frame_0309.jpg'
+frame 309/349 54s  az 59.3 dist 7.9
+04:17:39.613  render           | Saved: 'work/video_frames/frame_0310.jpg'
+frame 310/349 52s  az 59.2 dist 7.7
+04:18:31.863  render           | Saved: 'work/video_frames/frame_0311.jpg'
+frame 311/349 52s  az 59.1 dist 7.5
+04:19:26.778  render           | Saved: 'work/video_frames/frame_0312.jpg'
+frame 312/349 55s  az 59.1 dist 7.3
+04:20:21.948  render           | Saved: 'work/video_frames/frame_0313.jpg'
+frame 313/349 55s  az 59.0 dist 7.1
+04:21:15.454  render           | Saved: 'work/video_frames/frame_0314.jpg'
+frame 314/349 54s  az 58.9 dist 7.0
+04:22:08.507  render           | Saved: 'work/video_frames/frame_0315.jpg'
+frame 315/349 53s  az 58.9 dist 6.8
+04:23:03.222  render           | Saved: 'work/video_frames/frame_0316.jpg'
+frame 316/349 55s  az 58.8 dist 6.7
+04:23:57.750  render           | Saved: 'work/video_frames/frame_0317.jpg'
+frame 317/349 55s  az 58.8 dist 6.6
+04:24:56.154  render           | Saved: 'work/video_frames/frame_0318.jpg'
+frame 318/349 58s  az 58.7 dist 6.4
+04:25:53.366  render           | Saved: 'work/video_frames/frame_0319.jpg'
+frame 319/349 57s  az 58.7 dist 6.3
+04:26:48.384  render           | Saved: 'work/video_frames/frame_0320.jpg'
+frame 320/349 55s  az 58.6 dist 6.2
+04:27:43.274  render           | Saved: 'work/video_frames/frame_0321.jpg'
+frame 321/349 55s  az 58.6 dist 6.1
+04:28:41.041  render           | Saved: 'work/video_frames/frame_0322.jpg'
+frame 322/349 58s  az 58.5 dist 6.0
+04:29:40.495  render           | Saved: 'work/video_frames/frame_0323.jpg'
+frame 323/349 59s  az 58.5 dist 5.9
+04:30:44.413  render           | Saved: 'work/video_frames/frame_0324.jpg'
+frame 324/349 64s  az 58.4 dist 5.8
+04:31:50.939  render           | Saved: 'work/video_frames/frame_0325.jpg'
+frame 325/349 67s  az 58.4 dist 5.7
+04:32:54.917  render           | Saved: 'work/video_frames/frame_0326.jpg'
+frame 326/349 64s  az 58.3 dist 5.6
+04:33:55.957  render           | Saved: 'work/video_frames/frame_0327.jpg'
+frame 327/349 61s  az 58.3 dist 5.6
+04:34:53.531  render           | Saved: 'work/video_frames/frame_0328.jpg'
+frame 328/349 58s  az 58.3 dist 5.5
+04:35:51.580  render           | Saved: 'work/video_frames/frame_0329.jpg'
+frame 329/349 58s  az 58.2 dist 5.4
+04:36:50.973  render           | Saved: 'work/video_frames/frame_0330.jpg'
+frame 330/349 59s  az 58.2 dist 5.4
+04:37:53.322  render           | Saved: 'work/video_frames/frame_0331.jpg'
+frame 331/349 62s  az 58.2 dist 5.3
+04:38:55.938  render           | Saved: 'work/video_frames/frame_0332.jpg'
+frame 332/349 63s  az 58.1 dist 5.3
+04:39:57.272  render           | Saved: 'work/video_frames/frame_0333.jpg'
+frame 333/349 61s  az 58.1 dist 5.2
+04:40:55.479  render           | Saved: 'work/video_frames/frame_0334.jpg'
+frame 334/349 58s  az 58.1 dist 5.2
+04:41:51.082  render           | Saved: 'work/video_frames/frame_0335.jpg'
+frame 335/349 56s  az 58.1 dist 5.2
+04:42:51.064  render           | Saved: 'work/video_frames/frame_0336.jpg'
+frame 336/349 60s  az 58.1 dist 5.1
+04:43:52.204  render           | Saved: 'work/video_frames/frame_0337.jpg'
+frame 337/349 61s  az 58.1 dist 5.1
+04:44:52.779  render           | Saved: 'work/video_frames/frame_0338.jpg'
+frame 338/349 61s  az 58.0 dist 5.1
+04:45:49.790  render           | Saved: 'work/video_frames/frame_0339.jpg'
+frame 339/349 57s  az 58.0 dist 5.1
+04:46:47.221  render           | Saved: 'work/video_frames/frame_0340.jpg'
+frame 340/349 57s  az 58.0 dist 5.0
+04:47:43.175  render           | Saved: 'work/video_frames/frame_0341.jpg'
+frame 341/349 56s  az 58.0 dist 5.0
+04:48:40.025  render           | Saved: 'work/video_frames/frame_0342.jpg'
+frame 342/349 57s  az 58.0 dist 5.0
+04:49:37.648  render           | Saved: 'work/video_frames/frame_0343.jpg'
+frame 343/349 58s  az 58.0 dist 5.0
+04:50:33.178  render           | Saved: 'work/video_frames/frame_0344.jpg'
+frame 344/349 56s  az 58.0 dist 5.0
+04:51:29.460  render           | Saved: 'work/video_frames/frame_0345.jpg'
+frame 345/349 56s  az 58.0 dist 5.0
+04:52:25.719  render           | Saved: 'work/video_frames/frame_0346.jpg'
+frame 346/349 56s  az 58.0 dist 5.0
+04:53:24.209  render           | Saved: 'work/video_frames/frame_0347.jpg'
+frame 347/349 58s  az 58.0 dist 5.0
+04:54:20.644  render           | Saved: 'work/video_frames/frame_0348.jpg'
+frame 348/349 56s  az 58.0 dist 5.0
+04:55:16.746  render           | Saved: 'work/video_frames/frame_0349.jpg'
+frame 349/349 56s  az 58.0 dist 5.0
+FRAMES_DONE 350 17702s
+VIDEO_DONE
