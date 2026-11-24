@@ -17,3 +17,15 @@ PX0000381686 laterale FHD 92s
 PX0000381686 alto FHD 98s
 18:18.327  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione1_FHD_v2_varA.jpg'
 PX0000381686 giunzione1 FHD 418s
+25:03.339  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione2_FHD_v2_varA.jpg'
+PX0000381686 giunzione2 FHD 405s
+PX0000381686 totale 1503s
+00:03.012  cycles           | WARNING CUEW initialization failed: Error opening the library
+19:09.077  render           | Saved: 'output/renders/nastri/PX0000381687_34_4K_v2_varA.png'
+PX0000381687 34 4K 1147s
+PX0000381687 totale 1150s
+00:12.808  cycles           | WARNING CUEW initialization failed: Error opening the library
+20:25.241  render           | Saved: 'output/renders/assieme/PX0000381686_34hero_4K_v2_varA.png'
+PX0000381686 34hero 4K 1213s
+PX0000381686 totale 1226s
+VARA_DONE
