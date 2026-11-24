@@ -1,1 +1,19 @@
 00:02.984  cycles           | WARNING CUEW initialization failed: Error opening the library
+04:46.626  render           | Saved: 'output/renders/nastri/PX0000381687_laterale_FHD_v2_varA.jpg'
+PX0000381687 laterale FHD 284s
+11:39.629  render           | Saved: 'output/renders/nastri/PX0000381687_testata_FHD_v2_varA.jpg'
+PX0000381687 testata FHD 413s
+17:03.309  render           | Saved: 'output/renders/nastri/PX0000381687_rete_FHD_v2_varA.jpg'
+PX0000381687 rete FHD 324s
+PX0000381687 totale 1023s
+00:14.964  cycles           | WARNING CUEW initialization failed: Error opening the library
+04:17.445  render           | Saved: 'output/renders/assieme/PX0000381686_34alta_FHD_v2_varA.jpg'
+PX0000381686 34alta FHD 242s
+08:10.326  render           | Saved: 'output/renders/assieme/PX0000381686_34bassa_FHD_v2_varA.jpg'
+PX0000381686 34bassa FHD 233s
+09:41.842  render           | Saved: 'output/renders/assieme/PX0000381686_laterale_FHD_v2_varA.jpg'
+PX0000381686 laterale FHD 92s
+11:20.067  render           | Saved: 'output/renders/assieme/PX0000381686_alto_FHD_v2_varA.jpg'
+PX0000381686 alto FHD 98s
+18:18.327  render           | Saved: 'output/renders/assieme/PX0000381686_giunzione1_FHD_v2_varA.jpg'
+PX0000381686 giunzione1 FHD 418s
