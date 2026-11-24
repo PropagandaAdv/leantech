@@ -5,3 +5,5 @@ work/
 output/blender/
 output/renders/**/*.png
 output/consegna/*_4K.zip
+render_v2_2026-11-24/**/*_4K*.png
+work/video_frames/
