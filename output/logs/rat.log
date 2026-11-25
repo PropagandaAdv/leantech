@@ -22,3 +22,5 @@ Z3elementi 34 FHD 244s
 Z3elementi alto FHD 262s
 14:46.836  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/Z00000005863_3elementi_ruote_FHD.jpg'
 Z3elementi ruote FHD 336s
+scena pronta 14s; famiglie ['ALU6061', 'GOMMA', 'INOX', 'INOX_VITE', 'MOTORE', 'PL_NERO']; facce 4473431
+00:14.142  cycles           | WARNING CUEW initialization failed: Error opening the library

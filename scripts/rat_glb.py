@@ -11,7 +11,7 @@ def family(n, md):
     if n in MOTOR: return "MOTORE"
     if n in ALU: return "ALU6061"
     return "INOX_VITE" if md <= 90 else "INOX"
-RATIO = {"PL_NERO": 0.12, "GOMMA": 0.15, "MOTORE": 0.12, "ALU6061": 1.0, "INOX_VITE": 0.012, "INOX": 0.10}
+RATIO = {"PL_NERO": 0.05, "GOMMA": 0.08, "MOTORE": 0.06, "ALU6061": 0.5, "INOX_VITE": 0.006, "INOX": 0.04}
 PBR = {"ALU6061": ((0.62, 0.645, 0.69), 1.0, 0.52), "INOX": ((0.36, 0.335, 0.30), 1.0, 0.52), "INOX_VITE": ((0.50, 0.48, 0.45), 1.0, 0.45),
        "GOMMA": ((0.012, 0.012, 0.012), 0.0, 0.72), "PL_NERO": ((0.06, 0.06, 0.065), 0.0, 0.5), "MOTORE": (scene.color("MOTORE"), 0.0, 0.42)}
 def weld(V, F, tol=2e-5):
