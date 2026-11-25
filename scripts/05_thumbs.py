@@ -2,7 +2,7 @@
 import sys, re, json, glob, os; sys.path.insert(0, "scripts")
 from lib import *
 codes = sys.argv[1:] or ["PX0000381686"]
-done = set(os.listdir("work/thumbs"))
+done = set(os.listdir(os.environ.get("THUMBS","work/thumbs")))
 meta = {}
 for code in codes:
     d = load(code); V, N, F, FP, prods = d["V"], d["N"], d["F"], d["FP"], d["prods"]
@@ -29,7 +29,7 @@ for code in codes:
         az, el = math.radians(50), math.radians(25)
         loc = (c[0] + dist * math.cos(el) * math.sin(az), c[1] - dist * math.cos(el) * math.cos(az), c[2] + dist * math.sin(el))
         cam.location = loc; cam.rotation_euler = (mathutils.Vector(c) - mathutils.Vector(loc)).to_track_quat("-Z", "Y").to_euler()
-        sc.render.filepath = f"work/thumbs/{key}.png"; bpy.ops.render.render(write_still=True)
+        sc.render.filepath = os.path.join(os.environ.get("THUMBS","work/thumbs"), f"{key}.png"); bpy.ops.render.render(write_still=True)
         bpy.data.objects.remove(ob, do_unlink=True)
         meta[key] = dict(name=name, file=code, faces=int(m.sum()), size_mm=((phi - plo) * 1000).round(0).tolist(), ctr_mm=(c * 1000).round(0).tolist())
         done.add(f"{key}.png"); print(code, name, flush=True)
