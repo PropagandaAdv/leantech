@@ -24,3 +24,14 @@ Z3elementi alto FHD 262s
 Z3elementi ruote FHD 336s
 scena pronta 14s; famiglie ['ALU6061', 'GOMMA', 'INOX', 'INOX_VITE', 'MOTORE', 'PL_NERO']; facce 4473431
 00:14.142  cycles           | WARNING CUEW initialization failed: Error opening the library
+17:16.434  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/master_4K/Z00000005863_1elemento_34_4K.png'
+Z1elemento 34 4K 1022s
+scena pronta 28s; famiglie ['ALU6061', 'GOMMA', 'INOX', 'MOTORE', 'PL_NERO']; facce 8946862
+00:28.791  cycles           | WARNING CUEW initialization failed: Error opening the library
+15:44.462  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/master_4K/Z00000005863_2elementi_34_4K.png'
+Z2elementi 34 4K 916s
+scena pronta 39s; famiglie ['ALU6061', 'GOMMA', 'INOX', 'MOTORE', 'PL_NERO']; facce 13419559
+00:39.286  cycles           | WARNING CUEW initialization failed: Error opening the library
+15:52.833  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/master_4K/Z00000005863_3elementi_34_4K.png'
+Z3elementi 34 4K 914s
+RAT_DONE

@@ -1,38 +1,32 @@
-# Lavoro B – Layout intralogistico 5000 CPH con RAT 30°: esito della Fase 0
+# Lavoro B – Layout 5000 CPH con RAT 30°: stato (25/11/2026)
 
-**Esito: BLOCCATO – mancano i file indispensabili.** Non e' stato prodotto nessun render del layout.
+**RAT 30°: fatto. Layout intero: NON ancora fatto – il DWG non e' leggibile con gli strumenti disponibili.**
 
-## Verifica degli input (24/11/2026)
-| Input richiesto | Presente? | Dove ho cercato |
-|---|---|---|
-| Layout DWG 5000 CPH (sfondo bianco) | **No** | repository, `input/`, cartella Drive condivisa, allegati della sessione, intero filesystem |
-| File 3D RAT 30° (3 configurazioni) | **No** | idem |
-| WeTransfer del 23/11 (4 invii) | **No** | idem |
-| Screenshot `image019.png` / `image020.png` | **No** | idem. Il contenuto del feedback e' riportato nel prompt e applicato al lavoro A |
-| File STEP dei nastri | Si' | `input/` (7 STEP + PDF accumulo) |
-
-La cartella Drive condivisa (`10X-h8_9g6yfsX6dOp_-7qporr4obrYcg`) contiene solo gli 8 file dei nastri gia' usati.
-
-## Perche' non procedo con una ricostruzione
-- Il layout e' nel DWG: senza di esso non conosco disposizione, lunghezze, raccordi e posizione del RAT. Ricostruirlo "a occhio" produrrebbe un layout inventato, non quello del cliente.
-- Il RAT 30° e' un elemento **brevettato**: ruote inclinate, geometria dei banchi e angolo di deviazione vanno presi dal suo modello 3D. Un modello mio sarebbe un'invenzione e non lo presenterei al cliente come il suo prodotto.
-
-## Cosa mi serve (in ordine di priorita')
-1. **File 3D del RAT 30°** nelle tre configurazioni (banco singolo con 3 file di ruote, doppio, triplo): STEP, o formato equivalente.
-2. **Layout 5000 CPH**: il DWG (anche solo 2D) e lo screenshot con la cornice rossa della zona RAT (email del 17/11).
-3. Il contenuto dei **4 WeTransfer del 23/11**, se contiene modelli 3D del layout: in tal caso uso quelli.
-4. Facoltativo: dimensioni/modello di riferimento dei colli, altrimenti uso scatole di cartone di misure diverse, senza loghi (`[ASSUNZIONE]`).
-
-## Piano appena i file sono disponibili
-1. Se esiste un 3D completo del layout: lo uso. Se e' solo 2D: importo il DWG come riferimento in pianta e ricostruisco i tratti con i modelli STEP gia' disponibili (sezione W=340) o con estrusioni semplificate, inserendo il RAT 3D reale nelle posizioni del DWG. Le parti ricostruite vengono segnalate come tali nel report.
-2. Immagine di prova a bassa risoluzione della vista a volo d'angelo, con fonte della geometria, fedelta' e tempi.
-3. Inquadrature L1–L5 (e L6 se la geometria lo consente), stesso stile e materiali dei render dei nastri (profilo v2).
-4. Animazione L1 → L2 → L5 e tre clip brevi (L3, L4, L5); GLB del RAT nelle tre configurazioni.
-
-## Tempi indicativi (stime, da confermare sulla geometria reale; CPU a 4 core, senza GPU)
-| Prodotto | Stima |
+## File ricevuti (cartella Drive del 25/11)
+| File | Esito |
 |---|---|
-| Immagine Full HD | 3–6 min |
-| Master 4K | 12–20 min |
-| Clip da 3–4 s a 25 fps (75–100 frame, Full HD, 32 sample) | 1,5–2,5 h ciascuna |
-| Animazione continua da 12–15 s | 5–8 h |
+| `Z00000005863-1elemento / 2elementi / 3elementi .STEP` (SolidWorks, 94 componenti, 1 / 2 / 3 moduli) | **Letti e usati** |
+| `LAYOUT-FEDEX-5000-sfondo bianco.dwg` (AutoCAD 2018, formato AC1032, 30 MB) | **Non letto** |
+| 4 WeTransfer del 23/11, screenshot `image019/020` | non presenti nella cartella |
+
+## Perche' il DWG non e' letto
+Il formato DWG e' proprietario. In questo ambiente non esiste un lettore: nessun pacchetto Python affidabile (`ezdxf` legge solo DXF, `aspose-cad` e' commerciale), nessuno strumento installabile da apt. L'unica via, compilare LibreDWG dai sorgenti, e' stata bloccata dai permessi dell'ambiente e non l'ho aggirata.
+**Per sbloccare: esportare dal CAD uno di questi formati** (in ordine di preferenza): DXF (2013 o precedente), PDF vettoriale della pianta, oppure un modello 3D (STEP) del layout. Serve anche l'indicazione della zona del RAT (cornice rossa della mail del 17/11).
+
+## RAT: cosa e' stato prodotto (`B_layout_RAT/`)
+- `web_FHD/`: 9 immagini Full HD (3 configurazioni × vista 3/4, vista dall'alto, dettaglio delle ruote).
+- `master_4K/`: 3 master 4K PNG a 16 bit (vista 3/4 delle tre configurazioni).
+- `glb/`: 3 GLB (banco singolo 3,2 MB, doppio 7,0 MB, triplo 10,4 MB) e `viewer.html`.
+
+## Cosa risulta dal CAD del RAT
+- Elemento: circa 1134 × 383 × 256 mm; il doppio e il triplo sono 1, 2 e 3 moduli affiancati (profondita' 256 / 511 / 766 mm).
+- Ogni modulo ha 3 file × 13 ruote scanalate in gomma sul piano superiore, motoriduttori e trasmissione a cinghia all'interno.
+- **L'angolo di 30° NON e' visibile nel singolo elemento**: misurando la geometria, il piano di rotolamento delle ruote del campo centrale e' allineato all'asse lungo del modulo (0°); solo le ruote di estremita' sono inclinate di circa 10°, 80° e 103° (sono ruote di guida). L'angolo di deviazione di 30° dipende quindi dalla posa del modulo nel layout (cioe' dal DWG). Non lo mostro come proprieta' del modello finche' non vedo il layout.
+
+## [ASSUNZIONI] sui materiali del RAT (il CAD non ha colori)
+Piano e pannelli in inox satinato; ruote in gomma/plastica grigio scuro; cinghie in gomma nera; viteria in inox; motoriduttori nel grigio-blu dei nastri; profilo estruso in alluminio satinato. I **GLB web escludono la ferramenta interna** (cuscinetti, mozzi e supporti sotto il piano superiore: circa 3 milioni di facce non visibili dall'esterno) per tenere il peso sotto 11 MB; i render invece usano il modello completo.
+
+## Cosa resta per il layout (dopo l'export del DWG)
+1. Importare la pianta e ricostruire i tratti di nastro con i modelli STEP esistenti (sezione W=340) e posare il RAT con l'angolo reale.
+2. Immagine di prova a bassa risoluzione, poi L1 (layout intero), L2 (zona del RAT) e il collegamento con L3–L5 (gia' pronti).
+3. Animazione L1 → L2 → L5 e clip brevi: 1,5–2,5 h per clip Full HD, 5–8 h per l'animazione continua (misurato sul render dell'assieme).
