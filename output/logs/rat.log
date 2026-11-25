@@ -1,0 +1,24 @@
+scena pronta 16s; famiglie ['ALU6061', 'GOMMA', 'INOX', 'INOX_VITE', 'MOTORE', 'PL_NERO']; facce 4473431
+00:16.326  cycles           | WARNING CUEW initialization failed: Error opening the library
+04:20.663  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/Z00000005863_1elemento_34_FHD.jpg'
+Z1elemento 34 FHD 244s
+07:50.240  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/Z00000005863_1elemento_alto_FHD.jpg'
+Z1elemento alto FHD 210s
+13:24.646  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/Z00000005863_1elemento_ruote_FHD.jpg'
+Z1elemento ruote FHD 334s
+scena pronta 28s; famiglie ['ALU6061', 'GOMMA', 'INOX', 'MOTORE', 'PL_NERO']; facce 8946862
+00:27.912  cycles           | WARNING CUEW initialization failed: Error opening the library
+04:15.692  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/Z00000005863_2elementi_34_FHD.jpg'
+Z2elementi 34 FHD 228s
+08:31.649  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/Z00000005863_2elementi_alto_FHD.jpg'
+Z2elementi alto FHD 256s
+14:23.376  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/Z00000005863_2elementi_ruote_FHD.jpg'
+Z2elementi ruote FHD 352s
+scena pronta 45s; famiglie ['ALU6061', 'GOMMA', 'INOX', 'MOTORE', 'PL_NERO']; facce 13419559
+00:45.824  cycles           | WARNING CUEW initialization failed: Error opening the library
+04:49.500  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/Z00000005863_3elementi_34_FHD.jpg'
+Z3elementi 34 FHD 244s
+09:11.079  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/Z00000005863_3elementi_alto_FHD.jpg'
+Z3elementi alto FHD 262s
+14:46.836  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/Z00000005863_3elementi_ruote_FHD.jpg'
+Z3elementi ruote FHD 336s
