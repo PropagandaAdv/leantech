@@ -1,7 +1,7 @@
 # Lavoro B – Layout 5000 CPH con RAT 30°: stato (26/11/2026)
 
 ## ESITO 26/11 – layout schematico con colli: PRODOTTO
-Fatti: L1, L2, L6 in Full HD, master 4K di L1 e L2, GLB del layout (7,3 MB, RAT semplificato) e viewer. L3–L5 sono i render del RAT in 1/2/3 elementi. **Non fatte:** animazione del layout e clip brevi (stima 5–8 h e ~2 h a clip).
+Fatti: L1, L2, L6 in Full HD, master 4K di L1 e L2, GLB del layout (7,3 MB, RAT semplificato) e viewer. L3–L5 sono i render del RAT in 1/2/3 elementi. **Animazioni (27/11):** animazione continua L1→L2→L5 (13 s) e 3 clip RAT (3 s) in `video/`.
 
 ## Immagini di prova del layout (ricostruzione schematica)
 Il cliente ha inviato 4 immagini 2D del layout (pianta completa, pianta con cornice rossa, dettaglio della zona RAT). Con quelle ho ricostruito il layout in modo **schematico** (`layout_L1_prova.jpg`, `layout_L2_prova.jpg`; riferimenti del cliente in `riferimenti_cliente/`).
