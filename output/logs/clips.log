@@ -154,3 +154,155 @@ FRAMES_DONE 75 3270s
 CLIP_Z1elemento_DONE
 Z2elementi: frame 75, dist 3.04 m, collo 0.34x0.26x0.2
 00:16.455  cycles           | WARNING CUEW initialization failed: Error opening the library
+01:00.826  render           | Saved: 'work/anim_Z2elementi/frame_0000.jpg'
+frame 0/74 44s
+01:45.520  render           | Saved: 'work/anim_Z2elementi/frame_0001.jpg'
+frame 1/74 45s
+02:29.105  render           | Saved: 'work/anim_Z2elementi/frame_0002.jpg'
+frame 2/74 44s
+03:12.873  render           | Saved: 'work/anim_Z2elementi/frame_0003.jpg'
+frame 3/74 44s
+03:56.949  render           | Saved: 'work/anim_Z2elementi/frame_0004.jpg'
+frame 4/74 44s
+04:41.225  render           | Saved: 'work/anim_Z2elementi/frame_0005.jpg'
+frame 5/74 44s
+05:26.131  render           | Saved: 'work/anim_Z2elementi/frame_0006.jpg'
+frame 6/74 45s
+06:11.774  render           | Saved: 'work/anim_Z2elementi/frame_0007.jpg'
+frame 7/74 46s
+06:56.885  render           | Saved: 'work/anim_Z2elementi/frame_0008.jpg'
+frame 8/74 45s
+07:40.416  render           | Saved: 'work/anim_Z2elementi/frame_0009.jpg'
+frame 9/74 44s
+08:24.107  render           | Saved: 'work/anim_Z2elementi/frame_0010.jpg'
+frame 10/74 44s
+09:07.994  render           | Saved: 'work/anim_Z2elementi/frame_0011.jpg'
+frame 11/74 44s
+09:51.854  render           | Saved: 'work/anim_Z2elementi/frame_0012.jpg'
+frame 12/74 44s
+10:36.285  render           | Saved: 'work/anim_Z2elementi/frame_0013.jpg'
+frame 13/74 44s
+11:19.786  render           | Saved: 'work/anim_Z2elementi/frame_0014.jpg'
+frame 14/74 44s
+12:02.860  render           | Saved: 'work/anim_Z2elementi/frame_0015.jpg'
+frame 15/74 43s
+12:46.051  render           | Saved: 'work/anim_Z2elementi/frame_0016.jpg'
+frame 16/74 43s
+13:28.746  render           | Saved: 'work/anim_Z2elementi/frame_0017.jpg'
+frame 17/74 43s
+14:11.947  render           | Saved: 'work/anim_Z2elementi/frame_0018.jpg'
+frame 18/74 43s
+14:55.159  render           | Saved: 'work/anim_Z2elementi/frame_0019.jpg'
+frame 19/74 43s
+15:39.142  render           | Saved: 'work/anim_Z2elementi/frame_0020.jpg'
+frame 20/74 44s
+16:22.872  render           | Saved: 'work/anim_Z2elementi/frame_0021.jpg'
+frame 21/74 44s
+17:06.266  render           | Saved: 'work/anim_Z2elementi/frame_0022.jpg'
+frame 22/74 43s
+17:50.679  render           | Saved: 'work/anim_Z2elementi/frame_0023.jpg'
+frame 23/74 44s
+18:34.359  render           | Saved: 'work/anim_Z2elementi/frame_0024.jpg'
+frame 24/74 44s
+19:18.410  render           | Saved: 'work/anim_Z2elementi/frame_0025.jpg'
+frame 25/74 44s
+20:02.866  render           | Saved: 'work/anim_Z2elementi/frame_0026.jpg'
+frame 26/74 44s
+20:46.842  render           | Saved: 'work/anim_Z2elementi/frame_0027.jpg'
+frame 27/74 44s
+21:30.538  render           | Saved: 'work/anim_Z2elementi/frame_0028.jpg'
+frame 28/74 44s
+22:16.648  render           | Saved: 'work/anim_Z2elementi/frame_0029.jpg'
+frame 29/74 46s
+23:04.440  render           | Saved: 'work/anim_Z2elementi/frame_0030.jpg'
+frame 30/74 48s
+23:50.961  render           | Saved: 'work/anim_Z2elementi/frame_0031.jpg'
+frame 31/74 47s
+24:37.578  render           | Saved: 'work/anim_Z2elementi/frame_0032.jpg'
+frame 32/74 47s
+25:24.830  render           | Saved: 'work/anim_Z2elementi/frame_0033.jpg'
+frame 33/74 47s
+26:11.392  render           | Saved: 'work/anim_Z2elementi/frame_0034.jpg'
+frame 34/74 47s
+26:59.083  render           | Saved: 'work/anim_Z2elementi/frame_0035.jpg'
+frame 35/74 48s
+27:46.397  render           | Saved: 'work/anim_Z2elementi/frame_0036.jpg'
+frame 36/74 47s
+28:31.608  render           | Saved: 'work/anim_Z2elementi/frame_0037.jpg'
+frame 37/74 45s
+29:16.250  render           | Saved: 'work/anim_Z2elementi/frame_0038.jpg'
+frame 38/74 45s
+29:59.088  render           | Saved: 'work/anim_Z2elementi/frame_0039.jpg'
+frame 39/74 43s
+30:42.296  render           | Saved: 'work/anim_Z2elementi/frame_0040.jpg'
+frame 40/74 43s
+31:25.633  render           | Saved: 'work/anim_Z2elementi/frame_0041.jpg'
+frame 41/74 43s
+32:09.773  render           | Saved: 'work/anim_Z2elementi/frame_0042.jpg'
+frame 42/74 44s
+32:53.182  render           | Saved: 'work/anim_Z2elementi/frame_0043.jpg'
+frame 43/74 43s
+33:36.508  render           | Saved: 'work/anim_Z2elementi/frame_0044.jpg'
+frame 44/74 43s
+34:19.867  render           | Saved: 'work/anim_Z2elementi/frame_0045.jpg'
+frame 45/74 43s
+35:04.747  render           | Saved: 'work/anim_Z2elementi/frame_0046.jpg'
+frame 46/74 45s
+35:50.099  render           | Saved: 'work/anim_Z2elementi/frame_0047.jpg'
+frame 47/74 45s
+36:34.797  render           | Saved: 'work/anim_Z2elementi/frame_0048.jpg'
+frame 48/74 45s
+37:17.095  render           | Saved: 'work/anim_Z2elementi/frame_0049.jpg'
+frame 49/74 42s
+37:59.513  render           | Saved: 'work/anim_Z2elementi/frame_0050.jpg'
+frame 50/74 42s
+38:41.887  render           | Saved: 'work/anim_Z2elementi/frame_0051.jpg'
+frame 51/74 42s
+39:24.270  render           | Saved: 'work/anim_Z2elementi/frame_0052.jpg'
+frame 52/74 42s
+40:06.135  render           | Saved: 'work/anim_Z2elementi/frame_0053.jpg'
+frame 53/74 42s
+40:47.846  render           | Saved: 'work/anim_Z2elementi/frame_0054.jpg'
+frame 54/74 42s
+41:30.785  render           | Saved: 'work/anim_Z2elementi/frame_0055.jpg'
+frame 55/74 43s
+42:13.143  render           | Saved: 'work/anim_Z2elementi/frame_0056.jpg'
+frame 56/74 42s
+42:55.522  render           | Saved: 'work/anim_Z2elementi/frame_0057.jpg'
+frame 57/74 42s
+43:39.228  render           | Saved: 'work/anim_Z2elementi/frame_0058.jpg'
+frame 58/74 44s
+44:21.059  render           | Saved: 'work/anim_Z2elementi/frame_0059.jpg'
+frame 59/74 42s
+45:02.716  render           | Saved: 'work/anim_Z2elementi/frame_0060.jpg'
+frame 60/74 42s
+45:45.028  render           | Saved: 'work/anim_Z2elementi/frame_0061.jpg'
+frame 61/74 42s
+46:28.778  render           | Saved: 'work/anim_Z2elementi/frame_0062.jpg'
+frame 62/74 44s
+47:11.624  render           | Saved: 'work/anim_Z2elementi/frame_0063.jpg'
+frame 63/74 43s
+47:54.841  render           | Saved: 'work/anim_Z2elementi/frame_0064.jpg'
+frame 64/74 43s
+48:38.820  render           | Saved: 'work/anim_Z2elementi/frame_0065.jpg'
+frame 65/74 44s
+49:22.037  render           | Saved: 'work/anim_Z2elementi/frame_0066.jpg'
+frame 66/74 43s
+50:05.086  render           | Saved: 'work/anim_Z2elementi/frame_0067.jpg'
+frame 67/74 43s
+50:49.320  render           | Saved: 'work/anim_Z2elementi/frame_0068.jpg'
+frame 68/74 44s
+51:32.667  render           | Saved: 'work/anim_Z2elementi/frame_0069.jpg'
+frame 69/74 43s
+52:16.261  render           | Saved: 'work/anim_Z2elementi/frame_0070.jpg'
+frame 70/74 44s
+53:02.159  render           | Saved: 'work/anim_Z2elementi/frame_0071.jpg'
+frame 71/74 46s
+53:46.541  render           | Saved: 'work/anim_Z2elementi/frame_0072.jpg'
+frame 72/74 44s
+54:30.061  render           | Saved: 'work/anim_Z2elementi/frame_0073.jpg'
+frame 73/74 44s
+55:15.019  render           | Saved: 'work/anim_Z2elementi/frame_0074.jpg'
+frame 74/74 45s
+FRAMES_DONE 75 3299s
+CLIP_Z2elementi_DONE
