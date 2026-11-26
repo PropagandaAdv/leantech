@@ -27,8 +27,9 @@ bx, by, bz = {1: (0.22, 0.16, 0.12), 2: (0.34, 0.26, 0.20), 3: (0.46, 0.34, 0.28
 me = bpy.data.meshes.new("collo"); me.from_pydata([(dx * bx / 2, dy * by / 2, z) for z in (0, bz) for dx, dy in ((-1, -1), (1, -1), (1, 1), (-1, 1))], [], [(0, 2, 1), (0, 3, 2), (4, 5, 6), (4, 6, 7), (0, 1, 5), (0, 5, 4), (1, 2, 6), (1, 6, 5), (2, 3, 7), (2, 7, 6), (3, 0, 4), (3, 4, 7)])
 me.update(); box = bpy.data.objects.new("collo", me); bpy.context.scene.collection.objects.link(box); box.rotation_euler = (0, 0, math.radians(head))
 box.data.materials.append(plastic("CARTONE", (0.30, 0.19, 0.09), rough=0.8, micro=0.0, bevel=False))
-depth = hi[1] - lo[1]; dirv = np.array([math.cos(math.radians(head)), math.sin(math.radians(head))]); trav = (depth - 0.06 - by) / abs(dirv[1])
-start = np.array([c[0] - dirv[0] * trav / 2, hi[1] - 0.03 - by / 2]); fps = A.fps; Nf = int(round(A.secs * fps))
+depth = hi[1] - lo[1]; dirv = np.array([math.cos(math.radians(head)), math.sin(math.radians(head))])
+# il collo entra dal bordo di ingresso (a cavallo) ed esce dal bordo opposto: percorso lungo la direzione a 30 gradi rispetto al flusso
+trav = (depth + 0.6 * by) / abs(dirv[1]); start = np.array([c[0] - dirv[0] * trav / 2, hi[1] + 0.3 * by]); fps = A.fps; Nf = int(round(A.secs * fps))
 ease = lambda u: u * u * (3 - 2 * u); res = tuple(int(x) for x in A.res.split("x")); idx = [int(x) for x in A.only.split(",")] if A.only else range(Nf)
 dist = fit_dist(c, 36, 32, 50, corners, margin=0.85); tg = np.array([c[0], c[1], top - 0.02]); print(f"{code}: frame {Nf}, dist {dist:.2f} m, collo {bx}x{by}x{bz}", flush=True); t0 = time.time(); done = 0
 for i in idx:
