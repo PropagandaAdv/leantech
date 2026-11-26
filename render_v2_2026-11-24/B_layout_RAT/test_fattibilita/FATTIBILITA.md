@@ -1,4 +1,15 @@
-# Lavoro B – Layout 5000 CPH con RAT 30°: stato (25/11/2026)
+# Lavoro B – Layout 5000 CPH con RAT 30°: stato (26/11/2026)
+
+## AGGIORNAMENTO 26/11 – immagini di prova del layout (ricostruzione schematica)
+Il cliente ha inviato 4 immagini 2D del layout (pianta completa, pianta con cornice rossa, dettaglio della zona RAT). Con quelle ho ricostruito il layout in modo **schematico** (`layout_L1_prova.jpg`, `layout_L2_prova.jpg`; riferimenti del cliente in `riferimenti_cliente/`).
+**Fonte della geometria:** topologia ricavata dalle immagini; nastri procedurali (piano grigio, fiancate in alluminio, gambe inox); **RAT reale** dai tre STEP del cliente (triplo banco) posato nei 6 incroci.
+**Fedelta':** buona sulla disposizione (8 canali in ingresso a 30°, anello UNREAD, 6+6 uscite con curva a 90°, uscita buste); **da CAD del cliente c'e' solo il RAT**. Tutto il resto e' semplificato.
+**[ASSUNZIONI]** (1) *Scala*: ricavata dal RAT, il cui lato lungo (1134 mm) coincide con la larghezza della linea principale; da cio' lunghezza totale ~67 m e interasse tra le uscite ~4,6 m. Se il DWG ha quote diverse, va corretta. (2) Larghezze dei nastri di uscita (0,9 m) e raggi di curva stimati dall'immagine. (3) Nessun collo, scanner o struttura di supporto.
+**I 30° sono confermati dal layout:** sono l'angolo dei nastri di uscita rispetto alla linea principale (non una proprieta' del modulo RAT).
+**Tempi stimati per il resto:** viste Full HD del layout ~5–6 min ciascuna (misurato 71 s a 1600x900/40 sample, con CPU libera); master 4K ~25 min; animazione continua 5–8 h; clip brevi 1,5–2,5 h ciascuna.
+
+---
+## Stato precedente (25/11)
 
 **RAT 30°: fatto. Layout intero: NON ancora fatto – il DWG non e' leggibile con gli strumenti disponibili.**
 
