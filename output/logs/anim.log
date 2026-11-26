@@ -654,3 +654,157 @@ FRAMES_DONE 325 16619s
 MAIN_DONE
 Z1elemento: frame 75, dist 2.63 m, collo 0.22x0.16x0.12
 00:09.842  cycles           | WARNING CUEW initialization failed: Error opening the library
+00:58.379  render           | Saved: 'work/anim_Z1elemento/frame_0000.jpg'
+frame 0/74 49s
+01:41.986  render           | Saved: 'work/anim_Z1elemento/frame_0001.jpg'
+frame 1/74 44s
+02:24.796  render           | Saved: 'work/anim_Z1elemento/frame_0002.jpg'
+frame 2/74 43s
+03:07.907  render           | Saved: 'work/anim_Z1elemento/frame_0003.jpg'
+frame 3/74 43s
+03:52.278  render           | Saved: 'work/anim_Z1elemento/frame_0004.jpg'
+frame 4/74 44s
+04:35.794  render           | Saved: 'work/anim_Z1elemento/frame_0005.jpg'
+frame 5/74 44s
+05:19.252  render           | Saved: 'work/anim_Z1elemento/frame_0006.jpg'
+frame 6/74 43s
+06:03.066  render           | Saved: 'work/anim_Z1elemento/frame_0007.jpg'
+frame 7/74 44s
+06:46.924  render           | Saved: 'work/anim_Z1elemento/frame_0008.jpg'
+frame 8/74 44s
+07:31.428  render           | Saved: 'work/anim_Z1elemento/frame_0009.jpg'
+frame 9/74 45s
+08:16.028  render           | Saved: 'work/anim_Z1elemento/frame_0010.jpg'
+frame 10/74 45s
+08:59.037  render           | Saved: 'work/anim_Z1elemento/frame_0011.jpg'
+frame 11/74 43s
+09:42.220  render           | Saved: 'work/anim_Z1elemento/frame_0012.jpg'
+frame 12/74 43s
+10:25.196  render           | Saved: 'work/anim_Z1elemento/frame_0013.jpg'
+frame 13/74 43s
+11:07.977  render           | Saved: 'work/anim_Z1elemento/frame_0014.jpg'
+frame 14/74 43s
+11:50.758  render           | Saved: 'work/anim_Z1elemento/frame_0015.jpg'
+frame 15/74 43s
+12:34.067  render           | Saved: 'work/anim_Z1elemento/frame_0016.jpg'
+frame 16/74 43s
+13:17.206  render           | Saved: 'work/anim_Z1elemento/frame_0017.jpg'
+frame 17/74 43s
+14:00.186  render           | Saved: 'work/anim_Z1elemento/frame_0018.jpg'
+frame 18/74 43s
+14:44.111  render           | Saved: 'work/anim_Z1elemento/frame_0019.jpg'
+frame 19/74 44s
+15:27.283  render           | Saved: 'work/anim_Z1elemento/frame_0020.jpg'
+frame 20/74 43s
+16:10.935  render           | Saved: 'work/anim_Z1elemento/frame_0021.jpg'
+frame 21/74 44s
+16:54.572  render           | Saved: 'work/anim_Z1elemento/frame_0022.jpg'
+frame 22/74 44s
+17:37.889  render           | Saved: 'work/anim_Z1elemento/frame_0023.jpg'
+frame 23/74 43s
+18:20.695  render           | Saved: 'work/anim_Z1elemento/frame_0024.jpg'
+frame 24/74 43s
+19:04.035  render           | Saved: 'work/anim_Z1elemento/frame_0025.jpg'
+frame 25/74 43s
+19:46.783  render           | Saved: 'work/anim_Z1elemento/frame_0026.jpg'
+frame 26/74 43s
+20:30.966  render           | Saved: 'work/anim_Z1elemento/frame_0027.jpg'
+frame 27/74 44s
+21:14.981  render           | Saved: 'work/anim_Z1elemento/frame_0028.jpg'
+frame 28/74 44s
+21:59.554  render           | Saved: 'work/anim_Z1elemento/frame_0029.jpg'
+frame 29/74 45s
+22:44.728  render           | Saved: 'work/anim_Z1elemento/frame_0030.jpg'
+frame 30/74 45s
+23:30.274  render           | Saved: 'work/anim_Z1elemento/frame_0031.jpg'
+frame 31/74 46s
+24:15.736  render           | Saved: 'work/anim_Z1elemento/frame_0032.jpg'
+frame 32/74 45s
+25:00.650  render           | Saved: 'work/anim_Z1elemento/frame_0033.jpg'
+frame 33/74 45s
+25:43.764  render           | Saved: 'work/anim_Z1elemento/frame_0034.jpg'
+frame 34/74 43s
+26:26.540  render           | Saved: 'work/anim_Z1elemento/frame_0035.jpg'
+frame 35/74 43s
+27:09.975  render           | Saved: 'work/anim_Z1elemento/frame_0036.jpg'
+frame 36/74 43s
+27:52.476  render           | Saved: 'work/anim_Z1elemento/frame_0037.jpg'
+frame 37/74 42s
+28:34.463  render           | Saved: 'work/anim_Z1elemento/frame_0038.jpg'
+frame 38/74 42s
+29:18.212  render           | Saved: 'work/anim_Z1elemento/frame_0039.jpg'
+frame 39/74 44s
+30:00.321  render           | Saved: 'work/anim_Z1elemento/frame_0040.jpg'
+frame 40/74 42s
+30:42.172  render           | Saved: 'work/anim_Z1elemento/frame_0041.jpg'
+frame 41/74 42s
+31:23.954  render           | Saved: 'work/anim_Z1elemento/frame_0042.jpg'
+frame 42/74 42s
+32:05.860  render           | Saved: 'work/anim_Z1elemento/frame_0043.jpg'
+frame 43/74 42s
+32:48.048  render           | Saved: 'work/anim_Z1elemento/frame_0044.jpg'
+frame 44/74 42s
+33:30.911  render           | Saved: 'work/anim_Z1elemento/frame_0045.jpg'
+frame 45/74 43s
+34:14.106  render           | Saved: 'work/anim_Z1elemento/frame_0046.jpg'
+frame 46/74 43s
+34:57.011  render           | Saved: 'work/anim_Z1elemento/frame_0047.jpg'
+frame 47/74 43s
+35:40.066  render           | Saved: 'work/anim_Z1elemento/frame_0048.jpg'
+frame 48/74 43s
+36:23.770  render           | Saved: 'work/anim_Z1elemento/frame_0049.jpg'
+frame 49/74 44s
+37:09.836  render           | Saved: 'work/anim_Z1elemento/frame_0050.jpg'
+frame 50/74 46s
+37:53.440  render           | Saved: 'work/anim_Z1elemento/frame_0051.jpg'
+frame 51/74 44s
+38:37.773  render           | Saved: 'work/anim_Z1elemento/frame_0052.jpg'
+frame 52/74 44s
+39:24.627  render           | Saved: 'work/anim_Z1elemento/frame_0053.jpg'
+frame 53/74 47s
+40:09.113  render           | Saved: 'work/anim_Z1elemento/frame_0054.jpg'
+frame 54/74 44s
+40:55.526  render           | Saved: 'work/anim_Z1elemento/frame_0055.jpg'
+frame 55/74 46s
+41:40.975  render           | Saved: 'work/anim_Z1elemento/frame_0056.jpg'
+frame 56/74 45s
+42:25.830  render           | Saved: 'work/anim_Z1elemento/frame_0057.jpg'
+frame 57/74 45s
+43:09.047  render           | Saved: 'work/anim_Z1elemento/frame_0058.jpg'
+frame 58/74 43s
+43:52.282  render           | Saved: 'work/anim_Z1elemento/frame_0059.jpg'
+frame 59/74 43s
+44:34.942  render           | Saved: 'work/anim_Z1elemento/frame_0060.jpg'
+frame 60/74 43s
+45:16.417  render           | Saved: 'work/anim_Z1elemento/frame_0061.jpg'
+frame 61/74 41s
+45:57.777  render           | Saved: 'work/anim_Z1elemento/frame_0062.jpg'
+frame 62/74 41s
+46:39.173  render           | Saved: 'work/anim_Z1elemento/frame_0063.jpg'
+frame 63/74 41s
+47:21.517  render           | Saved: 'work/anim_Z1elemento/frame_0064.jpg'
+frame 64/74 42s
+48:03.082  render           | Saved: 'work/anim_Z1elemento/frame_0065.jpg'
+frame 65/74 42s
+48:44.915  render           | Saved: 'work/anim_Z1elemento/frame_0066.jpg'
+frame 66/74 42s
+49:27.744  render           | Saved: 'work/anim_Z1elemento/frame_0067.jpg'
+frame 67/74 43s
+50:10.773  render           | Saved: 'work/anim_Z1elemento/frame_0068.jpg'
+frame 68/74 43s
+50:54.274  render           | Saved: 'work/anim_Z1elemento/frame_0069.jpg'
+frame 69/74 43s
+51:36.200  render           | Saved: 'work/anim_Z1elemento/frame_0070.jpg'
+frame 70/74 42s
+52:17.484  render           | Saved: 'work/anim_Z1elemento/frame_0071.jpg'
+frame 71/74 41s
+52:58.751  render           | Saved: 'work/anim_Z1elemento/frame_0072.jpg'
+frame 72/74 41s
+53:41.345  render           | Saved: 'work/anim_Z1elemento/frame_0073.jpg'
+frame 73/74 43s
+54:23.367  render           | Saved: 'work/anim_Z1elemento/frame_0074.jpg'
+frame 74/74 42s
+FRAMES_DONE 75 3254s
+CLIP_Z1elemento_DONE
+Z2elementi: frame 75, dist 3.04 m, collo 0.34x0.26x0.2
+00:18.594  cycles           | WARNING CUEW initialization failed: Error opening the library
