@@ -90,6 +90,8 @@ def rat_mesh(code=os.environ.get("LAYRAT", "Z3elementi")):
         n = str(prods[i]); m = FP == i
         if n in hide or not m.any(): continue
         vv = V[np.unique(F[m].ravel())] * 1000; md = (vv.max(0) - vv.min(0)).max()
+        if os.environ.get("LAYGLB") and not (n in W or (vv.min(0)[2] + vv.max(0)[2]) / 2 >= 395): continue     # GLB web: solo ruote e piano superiore
+        if os.environ.get("LAYGLB") and n not in W: continue
         fam = "PL_NERO" if n in W else "GOMMA" if n in R else "MOTORE" if n in M_ else "ALU6061" if n == "PX0000355444" else ("INOX_VITE" if md <= 90 else "INOX")
         out.setdefault(fam, []).append(F[m])
     lo, hi = V.min(0), V.max(0); return V, N, {k: np.concatenate(v) for k, v in out.items()}, lo, hi
@@ -129,6 +131,11 @@ V, N, fams, lo, hi = rat_mesh(); c = (lo + hi) / 2; rat_objs = []
 for fam, Fm in fams.items():
     Vv = V.copy(); Vv[:, 0] -= c[0]; Vv[:, 1] -= c[1]; Vv[:, 2] += Z_TOP - hi[2] + 0.0
     ob = mesh_obj("RAT_" + fam, Vv, N, Fm); ob.data.materials.append(M[fam]); ob.rotation_euler = (0, 0, math.radians(90)); rat_objs.append(ob)
+if os.environ.get("LAYGLB"):     # involucro semplificato al posto di pannelli e componenti interni
+    body = Mesh(); box(body, 0.0, 0.0, Z_TOP - 0.40, Z_TOP - 0.004, 0.766, 1.134); bo = to_obj("RAT_involucro", body, M["INOX"]); rat_objs.append(bo)
+    for ob in rat_objs:
+        if ob.name == "RAT_PL_NERO":
+            bpy.context.view_layer.objects.active = ob; md = ob.modifiers.new("dec", "DECIMATE"); md.ratio = 0.05; bpy.ops.object.modifier_apply(modifier="dec")
 bpy.context.view_layer.update()
 for jx in JX:
     for ob in rat_objs:
@@ -153,7 +160,8 @@ for vn in a.views.split(","):
     tg = "4K" if res[0] >= 3840 else "FHD"; fn = os.path.join(a.out, f"layout_{vn}_{tg}{a.tag}")
     render(fn + (".png" if a.masters else ".jpg"), res, a.samples, False, "PNG" if a.masters else "JPEG", "16" if a.masters else "8"); print(f"{vn} {tg} {time.time()-t1:.0f}s", flush=True)
 if a.glb:
+    print("POLY", {o.name: len(o.data.polygons) for o in bpy.data.objects if o.type == "MESH" and not o.name.endswith("_i")}, flush=True)
     for o in [o for o in bpy.data.objects if o.type in ("CAMERA", "LIGHT") or o.name in ("cyc",)]: bpy.data.objects.remove(o)
-    bpy.ops.export_scene.gltf(filepath=a.glb, export_format="GLB", export_apply=True, export_yup=True, export_draco_mesh_compression_enable=True, export_draco_mesh_compression_level=7, export_draco_position_quantization=12)
+    bpy.ops.export_scene.gltf(filepath=a.glb, export_format="GLB", export_apply=True, export_yup=True, export_draco_mesh_compression_enable=True, export_draco_mesh_compression_level=7, export_draco_position_quantization=12, export_gpu_instances=True)
     print("GLB", a.glb, round(os.path.getsize(a.glb) / 1e6, 2), "MB", flush=True)
 if a.save_blend: bpy.ops.wm.save_as_mainfile(filepath=os.path.join(a.out, "layout.blend"), compress=True)

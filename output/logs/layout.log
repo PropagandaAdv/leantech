@@ -1,0 +1,55 @@
+scena pronta 30s
+00:30.323  cycles           | WARNING CUEW initialization failed: Error opening the library
+04:24.781  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/layout_L1_FHD.jpg'
+L1 FHD 234s
+10:32.544  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/layout_L2_FHD.jpg'
+L2 FHD 368s
+17:49.564  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/web_FHD/layout_L6_FHD.jpg'
+L6 FHD 437s
+scena pronta 30s
+00:30.688  cycles           | WARNING CUEW initialization failed: Error opening the library
+11:10.894  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/master_4K/layout_L1_4K.png'
+L1 4K 640s
+scena pronta 30s
+00:29.969  cycles           | WARNING CUEW initialization failed: Error opening the library
+24:37.486  render           | Saved: 'render_v2_2026-11-24/B_layout_RAT/master_4K/layout_L2_4K.png'
+L2 4K 1448s
+scena pronta 17s
+00:17.774  cycles           | WARNING CUEW initialization failed: Error opening the library
+00:19.382  render           | Saved: 'work/lay_glbtmp/layout_L1_FHD.jpg'
+L1 FHD 2s
+ERROR Draco is not available because library could not be found at /usr/local/lib/python3.13/site-packages/bpy/lib/libbf_intern_draco_bridge.so
+ERROR MeshOptimizer is not available because library could not be found at /usr/local/lib/python3.13/site-packages/bpy/lib/libbf_intern_meshopt_bridge.so
+10:03:20 | INFO: Starting glTF 2.0 export
+10:03:20 | INFO: Extracting primitive: collo_deviato
+10:03:20 | INFO: Primitives created: 1
+10:03:20 | INFO: Extracting primitive: lay_alu
+10:03:20 | INFO: Primitives created: 1
+10:03:20 | INFO: Extracting primitive: lay_belt
+10:03:20 | INFO: Primitives created: 1
+10:03:20 | INFO: Extracting primitive: lay_carton
+10:03:20 | INFO: Primitives created: 1
+10:03:20 | INFO: Extracting primitive: lay_carton2
+10:03:20 | INFO: Primitives created: 1
+10:03:20 | INFO: Extracting primitive: lay_env
+10:03:20 | INFO: Primitives created: 1
+10:03:20 | INFO: Extracting primitive: lay_gomma
+10:03:20 | INFO: Primitives created: 1
+10:03:20 | INFO: Extracting primitive: lay_inox
+10:03:20 | INFO: Primitives created: 1
+10:03:20 | INFO: Extracting primitive: lay_light
+10:03:20 | INFO: Primitives created: 1
+10:03:20 | INFO: Extracting primitive: RAT_ALU6061
+10:03:20 | INFO: Primitives created: 1
+10:03:20 | INFO: Extracting primitive: RAT_GOMMA
+10:03:20 | INFO: Primitives created: 1
+10:03:20 | INFO: Extracting primitive: RAT_INOX
+10:03:21 | INFO: Primitives created: 1
+10:03:22 | INFO: Extracting primitive: RAT_MOTORE
+10:03:22 | INFO: Primitives created: 1
+10:03:22 | INFO: Extracting primitive: RAT_PL_NERO
+10:03:23 | INFO: Primitives created: 1
+10:03:24 | INFO: Finished glTF 2.0 export in 4.120702743530273 s
+
+GLB render_v2_2026-11-24/B_layout_RAT/glb/Layout_5000CPH_schematico.glb 63.09 MB
+LAYOUT_DONE

@@ -18,7 +18,7 @@
 </head>
 <body>
 <header>
-  <h1>Leantech – RAT 30° (anteprima 3D)</h1>
+  <h1>Leantech – Layout 5000 CPH (schematico)</h1>
   <div id="tabs"></div>
 </header>
 <model-viewer id="mv" alt="Modello 3D nastro trasportatore Leantech"
@@ -26,9 +26,9 @@
   shadow-intensity="1" shadow-softness="0.9" exposure="0.9" environment-image="neutral" tone-mapping="aces"
   interaction-prompt="none">
 </model-viewer>
-<footer>Anteprima da file CAD. Colori e materiali del RAT assegnati da Propaganda (il CAD non li contiene).</footer>
+<footer>Layout schematico ricostruito dalle immagini del cliente (non da DWG); scala assunta. Il RAT e' dal CAD del cliente; nel layout e' semplificato.</footer>
 <script>
-  const MODELS = [["RAT banco singolo","Z00000005863_1elemento.glb"],["RAT doppio banco","Z00000005863_2elementi.glb"],["RAT triplo banco","Z00000005863_3elementi.glb"]];
+  const MODELS = [["Layout 5000 CPH (schematico)","Layout_5000CPH_schematico.glb"],["RAT banco singolo","Z00000005863_1elemento.glb"],["RAT doppio banco","Z00000005863_2elementi.glb"],["RAT triplo banco","Z00000005863_3elementi.glb"]];
   const mv = document.getElementById("mv"), tabs = document.getElementById("tabs");
   function load(i){ [...tabs.children].forEach((b,j)=>b.setAttribute("aria-pressed", i===j)); const t0=performance.now(); mv.src = MODELS[i][1];
     mv.addEventListener("load", ()=>console.log(MODELS[i][1], "caricato in", Math.round(performance.now()-t0), "ms"), {once:true}); }

@@ -1,6 +1,9 @@
 # Lavoro B – Layout 5000 CPH con RAT 30°: stato (26/11/2026)
 
-## AGGIORNAMENTO 26/11 – immagini di prova del layout (ricostruzione schematica)
+## ESITO 26/11 – layout schematico con colli: PRODOTTO
+Fatti: L1, L2, L6 in Full HD, master 4K di L1 e L2, GLB del layout (7,3 MB, RAT semplificato) e viewer. L3–L5 sono i render del RAT in 1/2/3 elementi. **Non fatte:** animazione del layout e clip brevi (stima 5–8 h e ~2 h a clip).
+
+## Immagini di prova del layout (ricostruzione schematica)
 Il cliente ha inviato 4 immagini 2D del layout (pianta completa, pianta con cornice rossa, dettaglio della zona RAT). Con quelle ho ricostruito il layout in modo **schematico** (`layout_L1_prova.jpg`, `layout_L2_prova.jpg`; riferimenti del cliente in `riferimenti_cliente/`).
 **Fonte della geometria:** topologia ricavata dalle immagini; nastri procedurali (piano grigio, fiancate in alluminio, gambe inox); **RAT reale** dai tre STEP del cliente (triplo banco) posato nei 6 incroci.
 **Fedelta':** buona sulla disposizione (8 canali in ingresso a 30°, anello UNREAD, 6+6 uscite con curva a 90°, uscita buste); **da CAD del cliente c'e' solo il RAT**. Tutto il resto e' semplificato.
